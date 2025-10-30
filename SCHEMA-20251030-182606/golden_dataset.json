@@ -1,0 +1,47 @@
+[
+  {
+    "user_id": "USR-789012",
+    "email": "another.user@domain.net",
+    "age": 32,
+    "subscription_tier": "basic",
+    "last_login": "2025-11-01T08:15:00Z",
+    "preferences": {
+      "theme": "light",
+      "notifications": false
+    },
+    "recent_logins": [
+      "2025-10-31T14:45:00Z",
+      "2025-10-30T19:20:00Z",
+      "2025-10-29T21:00:00Z"
+    ]
+  },
+  {
+    "user_id": "USR-345678",
+    "email": "john.doe123@email.com",
+    "age": 41,
+    "subscription_tier": "premium",
+    "last_login": "2025-11-02T10:30:00Z",
+    "preferences": {
+      "theme": "dark",
+      "notifications": true
+    },
+    "recent_logins": [
+      "2025-11-01T09:00:00Z",
+      "2025-10-31T16:00:00Z"
+    ]
+  },
+  {
+    "user_id": "USR-901234",
+    "email": "jane_smith@sample.org",
+    "age": 28,
+    "subscription_tier": "standard",
+    "last_login": "2025-11-03T14:00:00Z",
+    "preferences": {
+      "theme": "light",
+      "notifications": true
+    },
+    "recent_logins": [
+      "2025-11-02T12:00:00Z"
+    ]
+  }
+]
