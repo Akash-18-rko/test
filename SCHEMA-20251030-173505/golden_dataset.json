@@ -1,0 +1,23 @@
+[
+  {
+    "user_id": "USR-123456",
+    "email": "john.doe@example.com",
+    "age": 32,
+    "subscription_tier": "premium",
+    "last_login": "2024-07-26T14:30:00Z"
+  },
+  {
+    "user_id": "USR-987654",
+    "email": "jane.smith@email.net",
+    "age": 25,
+    "subscription_tier": "basic",
+    "last_login": "2024-07-27T08:15:00Z"
+  },
+  {
+    "user_id": "USR-246810",
+    "email": "peter.jones@company.org",
+    "age": 48,
+    "subscription_tier": "enterprise",
+    "last_login": "2024-07-26T18:00:00Z"
+  }
+]
