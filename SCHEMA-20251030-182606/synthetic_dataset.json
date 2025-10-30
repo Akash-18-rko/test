@@ -1,0 +1,72 @@
+[
+  {
+    "user_id": "USR-000000",
+    "email": "invalid-email",
+    "age": 0,
+    "subscription_tier": "free",
+    "last_login": "2020-01-01T00:00:00Z",
+    "preferences": {
+      "theme": "light",
+      "notifications": false
+    },
+    "recent_logins": []
+  },
+  {
+    "user_id": "USR-999999",
+    "email": "very.long.email.address@example.co.uk",
+    "age": 120,
+    "subscription_tier": "premium_plus",
+    "last_login": "2025-11-01T23:59:59Z",
+    "preferences": {
+      "theme": "dark",
+      "notifications": true
+    },
+    "recent_logins": [
+      "2025-10-31T22:00:00Z",
+      "2025-10-30T21:30:00Z",
+      "2025-10-29T20:00:00Z"
+    ]
+  },
+  {
+    "user_id": "USR-111111",
+    "email": "",
+    "age": null,
+    "subscription_tier": "basic",
+    "last_login": null,
+    "preferences": {
+      "theme": null,
+      "notifications": null
+    },
+    "recent_logins": [
+      "2025-10-01T10:00:00Z"
+    ]
+  },
+  {
+    "user_id": "USR-ABC-DEF",
+    "email": "test+alias@sub.example.com",
+    "age": 1,
+    "subscription_tier": "premium",
+    "last_login": "2025-10-20T10:10:10Z",
+    "preferences": {
+      "theme": "weird_theme",
+      "notifications": true
+    },
+    "recent_logins": [
+      "2025-10-19T00:00:00Z"
+    ]
+  },
+  {
+    "user_id": "USR-!@#$%^",
+    "email": "unicode📧test@example.com",
+    "age": 99,
+    "subscription_tier": "platinum",
+    "last_login": "2024-05-15T15:45:15Z",
+    "preferences": {
+      "theme": "✨magic✨",
+      "notifications": false
+    },
+    "recent_logins": [
+      "2024-05-14T18:00:00Z"
+    ]
+  }
+]
