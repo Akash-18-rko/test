@@ -1,0 +1,37 @@
+[
+  {
+    "user_id": "USR-000001",
+    "email": "test.user@example.com",
+    "age": 20,
+    "subscription_tier": "basic",
+    "last_login": "2023-11-20T10:00:00Z"
+  },
+  {
+    "user_id": "USR-999999",
+    "email": "edge_case_email+123@sub.domain.co.uk",
+    "age": 18,
+    "subscription_tier": "free",
+    "last_login": null
+  },
+  {
+    "user_id": "USR-000010",
+    "email": "user.with.dots@example.org",
+    "age": 100,
+    "subscription_tier": "enterprise",
+    "last_login": "2024-01-01T23:59:59Z"
+  },
+  {
+    "user_id": "USR-123456",
+    "email": "unicode_user@你好世界.com",
+    "age": 30,
+    "subscription_tier": "premium",
+    "last_login": "2023-12-15T12:30:00Z"
+  },
+  {
+    "user_id": "USR-000002",
+    "email": "very.long.email.address.with.many.parts@supercalifragilisticexpialidocious.com",
+    "age": 75,
+    "subscription_tier": "basic",
+    "last_login": "2023-11-28T08:15:00Z"
+  }
+]
