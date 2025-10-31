@@ -1,0 +1,309 @@
+[
+  {
+    "metadata": {
+      "source": "Google Drive",
+      "timestamp": "2026-01-01T00:00:00Z",
+      "version": "2.0"
+    },
+    "document": {
+      "id": "DOC-000000",
+      "title": "!@#$%^&*()_+=-",
+      "url": "https://example.com/empty.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "created_at": "2025-11-01T12:00:00Z",
+      "modified_at": "2025-11-01T12:00:00Z",
+      "access_level": "public"
+    },
+    "permissions": [
+      {
+        "user_id": "U999",
+        "email": "admin@example.com",
+        "role": "owner",
+        "granted_at": "2025-11-02T09:00:00Z"
+      }
+    ],
+    "sharing": {
+      "external_access": false,
+      "link_type": "edit",
+      "expiration": null,
+      "password_protected": false,
+      "allowed_domains": []
+    },
+    "analytics": {
+      "view_count": 0,
+      "download_count": 0,
+      "last_accessed": null,
+      "unique_viewers": 0,
+      "access_patterns": {
+        "morning": 0,
+        "afternoon": 0,
+        "evening": 0
+      }
+    },
+    "tags": [],
+    "workflow": {
+      "status": "draft",
+      "assigned_to": null,
+      "due_date": null,
+      "approval_chain": []
+    }
+  },
+  {
+    "metadata": {
+      "source": "SharePoint",
+      "timestamp": "2025-10-31T23:59:59Z",
+      "version": "1.1"
+    },
+    "document": {
+      "id": "DOC-999999",
+      "title": "Confidential Document with é à ñ ü",
+      "url": "https://internal.sharepoint.com/docs/secure.docx",
+      "file_type": "docx",
+      "size_bytes": 2147483647,
+      "created_at": "2025-10-10T10:10:10Z",
+      "modified_at": "2025-10-31T23:59:59Z",
+      "access_level": "restricted"
+    },
+    "permissions": [
+      {
+        "user_id": "U111",
+        "email": "user1@example.com",
+        "role": "editor",
+        "granted_at": "2025-10-15T11:11:11Z"
+      },
+      {
+        "user_id": "U222",
+        "email": "user2@example.com",
+        "role": "viewer",
+        "granted_at": "2025-10-20T12:12:12Z"
+      }
+    ],
+    "sharing": {
+      "external_access": true,
+      "link_type": "view",
+      "expiration": "2026-06-30T23:59:59Z",
+      "password_protected": true,
+      "allowed_domains": [
+        "example.com",
+        "internal.com"
+      ]
+    },
+    "analytics": {
+      "view_count": 9999,
+      "download_count": 1,
+      "last_accessed": "2025-10-31T20:00:00Z",
+      "unique_viewers": 99,
+      "access_patterns": {
+        "morning": 100,
+        "afternoon": 500,
+        "evening": 1000
+      }
+    },
+    "tags": [
+      "confidential",
+      "internal"
+    ],
+    "workflow": {
+      "status": "approved",
+      "assigned_to": "U333",
+      "due_date": "2025-11-20T00:00:00Z",
+      "approval_chain": [
+        {
+          "step": 1,
+          "approver": "U111",
+          "status": "approved",
+          "timestamp": "2025-10-28T10:00:00Z"
+        },
+        {
+          "step": 2,
+          "approver": "U222",
+          "status": "approved",
+          "timestamp": "2025-10-29T11:00:00Z"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "source": "Box",
+      "timestamp": "2025-11-15T15:30:00Z",
+      "version": "1.0"
+    },
+    "document": {
+      "id": "DOC-123456",
+      "title": "Sales Report - Q3",
+      "url": "https://box.com/files/report.xlsx",
+      "file_type": "xlsx",
+      "size_bytes": 1024,
+      "created_at": "2025-09-01T00:00:00Z",
+      "modified_at": "2025-11-15T15:00:00Z",
+      "access_level": "internal"
+    },
+    "permissions": [
+      {
+        "user_id": "U444",
+        "email": "user3@example.com",
+        "role": "viewer",
+        "granted_at": "2025-09-01T00:00:00Z"
+      }
+    ],
+    "sharing": {
+      "external_access": false,
+      "link_type": "view",
+      "expiration": null,
+      "password_protected": false,
+      "allowed_domains": []
+    },
+    "analytics": {
+      "view_count": 10,
+      "download_count": 5,
+      "last_accessed": "2025-11-15T15:00:00Z",
+      "unique_viewers": 10,
+      "access_patterns": {
+        "morning": 2,
+        "afternoon": 5,
+        "evening": 3
+      }
+    },
+    "tags": [
+      "sales",
+      "report"
+    ],
+    "workflow": {
+      "status": "in_review",
+      "assigned_to": "U555",
+      "due_date": "2025-11-22T00:00:00Z",
+      "approval_chain": []
+    }
+  },
+  {
+    "metadata": {
+      "source": "OneDrive",
+      "timestamp": "2025-12-25T00:00:00Z",
+      "version": "1.2"
+    },
+    "document": {
+      "id": "DOC-112233",
+      "title": "Holiday Newsletter",
+      "url": "https://onedrive.com/newsletter.doc",
+      "file_type": "doc",
+      "size_bytes": 100,
+      "created_at": "2025-12-01T00:00:00Z",
+      "modified_at": "2025-12-24T23:59:59Z",
+      "access_level": "public"
+    },
+    "permissions": [],
+    "sharing": {
+      "external_access": true,
+      "link_type": "edit",
+      "expiration": "2026-01-01T00:00:00Z",
+      "password_protected": false,
+      "allowed_domains": [
+        "*.com"
+      ]
+    },
+    "analytics": {
+      "view_count": 500,
+      "download_count": 200,
+      "last_accessed": "2025-12-24T12:00:00Z",
+      "unique_viewers": 150,
+      "access_patterns": {
+        "morning": 100,
+        "afternoon": 200,
+        "evening": 200
+      }
+    },
+    "tags": [
+      "holiday",
+      "newsletter"
+    ],
+    "workflow": {
+      "status": "rejected",
+      "assigned_to": "U666",
+      "due_date": "2025-12-20T00:00:00Z",
+      "approval_chain": [
+        {
+          "step": 1,
+          "approver": "U123",
+          "status": "rejected",
+          "timestamp": "2025-12-19T10:00:00Z"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "source": "SharePoint",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "version": "0.5"
+    },
+    "document": {
+      "id": "DOC-987654",
+      "title": "Budget Plan",
+      "url": "https://sharepoint.com/budget.xlsx",
+      "file_type": "xlsx",
+      "size_bytes": 1000000,
+      "created_at": "2023-12-20T10:00:00Z",
+      "modified_at": "2023-12-28T14:00:00Z",
+      "access_level": "restricted"
+    },
+    "permissions": [
+      {
+        "user_id": "U777",
+        "email": "user4@example.com",
+        "role": "owner",
+        "granted_at": "2023-12-20T10:00:00Z"
+      },
+      {
+        "user_id": "U888",
+        "email": "user5@example.com",
+        "role": "editor",
+        "granted_at": "2023-12-22T10:00:00Z"
+      }
+    ],
+    "sharing": {
+      "external_access": false,
+      "link_type": "view",
+      "expiration": null,
+      "password_protected": true,
+      "allowed_domains": [
+        "example.com"
+      ]
+    },
+    "analytics": {
+      "view_count": 250,
+      "download_count": 75,
+      "last_accessed": "2023-12-29T08:00:00Z",
+      "unique_viewers": 50,
+      "access_patterns": {
+        "morning": 100,
+        "afternoon": 100,
+        "evening": 50
+      }
+    },
+    "tags": [
+      "budget",
+      "financial"
+    ],
+    "workflow": {
+      "status": "approved",
+      "assigned_to": null,
+      "due_date": "2024-01-05T00:00:00Z",
+      "approval_chain": [
+        {
+          "step": 1,
+          "approver": "U777",
+          "status": "approved",
+          "timestamp": "2023-12-28T12:00:00Z"
+        },
+        {
+          "step": 2,
+          "approver": "U888",
+          "status": "approved",
+          "timestamp": "2023-12-29T08:00:00Z"
+        }
+      ]
+    }
+  }
+]
