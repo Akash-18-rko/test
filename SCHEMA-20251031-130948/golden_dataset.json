@@ -1,0 +1,307 @@
+[
+  {
+    "id": "AI-UC-FIN-012",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI Workflow Agents",
+    "aiCloudProvider": "AWS",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Deep Learning",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "BERT",
+    "businessUsage": "The AI platform analyzes financial transactions, detects fraudulent activities, and provides real-time alerts to the finance team.",
+    "category": "AI Security",
+    "cloudProvider": "AWS",
+    "createdAt": "2024-11-15T09:15:32.123456",
+    "department": "Finance",
+    "impact": "HIGH",
+    "keyActivity": "The primary activity is to automate fraud detection and financial reporting, integrating real-time transaction analysis.",
+    "level": 3,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Ratio of correct fraud detections over total transactions",
+        "threshold": 95
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time taken to analyze each transaction showing responsiveness",
+        "threshold": 100
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Proportion of correct fraud detections among all detected fraud activities",
+        "threshold": 90
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Completeness in detecting all fraudulent cases showing coverage",
+        "threshold": 92
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure combining relevance and completeness showing stability",
+        "threshold": 91
+      }
+    ],
+    "modelDescription": "The model detects fraudulent transactions by analyzing transaction patterns and identifying anomalies.",
+    "modelInput": "Transaction Details, User Activity, Location Data",
+    "modelName": "Financial Fraud Detection AI",
+    "modelOutput": "Alerts, Reports, Transaction Analysis",
+    "modelPurpose": "To detect and prevent fraudulent activities in financial transactions.",
+    "modelSummary": "The model helps to monitor financial transactions and provides alerts for potential fraud cases.",
+    "modelUsage": "The model is used to analyze real-time transactions, detect suspicious activities, and provide insights for further investigation.",
+    "overallRisk": "HIGH",
+    "platform": "Python, TensorFlow, AWS",
+    "priorityType": "HIGH-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 11001,
+    "sector": "Finance",
+    "status": "approved",
+    "updatedAt": "2024-11-15T09:15:32.123456",
+    "useFrequency": "Daily"
+  },
+  {
+    "id": "AI-UC-MKT-021",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI Workflow Agents",
+    "aiCloudProvider": "GCP",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Reinforcement Learning",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "GPT-3",
+    "businessUsage": "The AI Marketing Platform analyzes customer behavior, personalizes marketing campaigns, and optimizes ad spending.",
+    "category": "AI Marketing",
+    "cloudProvider": "GCP",
+    "createdAt": "2025-01-20T14:48:55.789012",
+    "department": "Marketing",
+    "impact": "HIGH",
+    "keyActivity": "The primary activity is to automate campaign personalization and marketing spend optimization.",
+    "level": 4,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Ratio of correctly predicted customer behaviors over total predictions",
+        "threshold": 85
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time taken to generate personalized content",
+        "threshold": 120
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Proportion of successful campaign deliveries",
+        "threshold": 80
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Completeness in reaching target audience",
+        "threshold": 82
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure combining campaign success and audience reach",
+        "threshold": 81
+      }
+    ],
+    "modelDescription": "The model personalizes marketing content based on customer behavior and preferences.",
+    "modelInput": "Customer Data, Campaign Objectives, Ad Spend",
+    "modelName": "Personalized Marketing AI",
+    "modelOutput": "Personalized Ads, Campaign Reports, Customer Segments",
+    "modelPurpose": "To personalize marketing campaigns and optimize ad spend for better customer engagement.",
+    "modelSummary": "The model personalizes marketing campaigns and optimizes ad spend.",
+    "modelUsage": "The model is used to generate personalized ad content and optimize ad placement.",
+    "overallRisk": "MEDIUM",
+    "platform": "Python, TensorFlow, GCP",
+    "priorityType": "MEDIUM-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 11050,
+    "sector": "Marketing",
+    "status": "approved",
+    "updatedAt": "2025-01-20T14:48:55.789012",
+    "useFrequency": "Daily"
+  },
+  {
+    "id": "AI-UC-HR-030",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI Workflow Agents",
+    "aiCloudProvider": "AWS",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Rule-Based Automation",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "GPT-4",
+    "businessUsage": "The AI HR Platform automates the onboarding process, handles employee inquiries, and provides insights for HR decisions.",
+    "category": "AI HR",
+    "cloudProvider": "AWS",
+    "createdAt": "2024-06-05T10:00:00.000000",
+    "department": "Human Resources",
+    "impact": "MEDIUM",
+    "keyActivity": "The primary activity is to automate repetitive HR tasks and provide quick responses.",
+    "level": 2,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Ratio of correct responses to employee queries",
+        "threshold": 80
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time taken to respond to employee queries",
+        "threshold": 60
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Proportion of correct responses to all responses",
+        "threshold": 75
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Completeness in providing relevant information",
+        "threshold": 70
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure combining response relevance and completeness",
+        "threshold": 72
+      }
+    ],
+    "modelDescription": "The model automates the HR onboarding process and provides answers to common employee questions.",
+    "modelInput": "Employee Data, HR Policies, Training Materials",
+    "modelName": "HR Automation Assistant AI",
+    "modelOutput": "Onboarding Documents, Answers to Queries, Performance Reports",
+    "modelPurpose": "To automate HR processes and provide quick and accurate information to employees.",
+    "modelSummary": "The model streamlines HR processes and provides instant access to information.",
+    "modelUsage": "The model is used to manage employee onboarding and answer general HR queries.",
+    "overallRisk": "LOW",
+    "platform": "React, Node.js, AWS",
+    "priorityType": "LOW-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 11099,
+    "sector": "Human Resources",
+    "status": "in_review",
+    "updatedAt": "2024-06-05T10:00:00.000000",
+    "useFrequency": "Daily"
+  },
+  {
+    "id": "AI-UC-SFT-039",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI Workflow Agents",
+    "aiCloudProvider": "GCP",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Deep Learning",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "BERT",
+    "businessUsage": "The AI platform analyzes the requirements of software development projects, generates code, and streamlines the development life cycle.",
+    "category": "AI Software Development",
+    "cloudProvider": "GCP",
+    "createdAt": "2024-03-10T16:20:10.555555",
+    "department": "Software Engineering",
+    "impact": "HIGH",
+    "keyActivity": "The primary activity is to automate the code generation and streamline the development lifecycle.",
+    "level": 5,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Ratio of correctly generated code functionalities",
+        "threshold": 88
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time taken for code generation and analysis",
+        "threshold": 150
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Proportion of functional code modules",
+        "threshold": 85
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Completeness in generating code for all project requirements",
+        "threshold": 86
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure combining relevance and completeness showing stability",
+        "threshold": 85
+      }
+    ],
+    "modelDescription": "The model automates code generation and assists in software development.",
+    "modelInput": "Project Requirements, Design Specifications, Code Examples",
+    "modelName": "Intelligent Code Generator AI",
+    "modelOutput": "Source Code, Documentation, Test Suites",
+    "modelPurpose": "To automate and streamline the software development lifecycle.",
+    "modelSummary": "The model speeds up software development by generating code and automating testing.",
+    "modelUsage": "The model is used to generate code snippets, debug existing code, and create test cases.",
+    "overallRisk": "MEDIUM",
+    "platform": "Python, TensorFlow, GCP",
+    "priorityType": "HIGH-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 11148,
+    "sector": "Software Development",
+    "status": "approved",
+    "updatedAt": "2024-03-10T16:20:10.555555",
+    "useFrequency": "Weekly"
+  },
+  {
+    "id": "AI-UC-MED-048",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI Workflow Agents",
+    "aiCloudProvider": "AWS",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Rule-Based Automation",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "GPT-4",
+    "businessUsage": "The AI medical platform helps in diagnosis, treatment suggestions, and drug interaction analysis.",
+    "category": "AI Healthcare",
+    "cloudProvider": "AWS",
+    "createdAt": "2025-07-22T08:30:45.999999",
+    "department": "Medical",
+    "impact": "HIGH",
+    "keyActivity": "The primary activity is to provide diagnostic support and drug interaction analysis.",
+    "level": 3,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Ratio of correct diagnoses over total cases",
+        "threshold": 92
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time taken to generate medical reports",
+        "threshold": 110
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Proportion of correct diagnoses among all generated suggestions",
+        "threshold": 88
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Completeness in identifying all possible conditions",
+        "threshold": 85
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure combining diagnostic accuracy and coverage",
+        "threshold": 86
+      }
+    ],
+    "modelDescription": "The model offers diagnostic support, treatment suggestions, and drug interaction analysis.",
+    "modelInput": "Patient Symptoms, Medical History, Test Results",
+    "modelName": "Medical Diagnosis Assistant AI",
+    "modelOutput": "Diagnosis, Treatment Suggestions, Drug Interaction Reports",
+    "modelPurpose": "To assist medical professionals with diagnosis and treatment decisions.",
+    "modelSummary": "The model assists in diagnosis and treatment suggesting possible conditions and drug interaction analysis.",
+    "modelUsage": "The model is used by medical professionals to provide diagnostic support.",
+    "overallRisk": "HIGH",
+    "platform": "Python, PyTorch, AWS",
+    "priorityType": "HIGH-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 11197,
+    "sector": "Healthcare",
+    "status": "rejected",
+    "updatedAt": "2025-07-22T08:30:45.999999",
+    "useFrequency": "Monthly"
+  }
+]
