@@ -1,0 +1,232 @@
+[
+  {
+    "assessmentResult": {
+      "Input Request": {
+        "Property Type": "Apartment",
+        "Budget Range": "USD 500,000 - USD 600,000",
+        "Preferred Location": "Downtown Dubai",
+        "Special Requirements": "2 Bedrooms, Balcony, Near Metro Station"
+      },
+      "Analysis Steps": [
+        "Collected property requirements from the user.",
+        "Queried the Bayut API for matching properties in Downtown Dubai.",
+        "Analyzed historical price trends for apartments in the specified budget.",
+        "Evaluated proximity to Metro stations using Google Maps API.",
+        "Generated insights on supply/demand dynamics for Downtown Dubai apartments.",
+        "Created a risk assessment based on market volatility and developer reputation."
+      ],
+      "Generated Insights": {
+        "Price Trend": "Average price appreciation in Downtown Dubai apartments: 8% annually.",
+        "Location Insights": "Properties near the Burj Khalifa and Dubai Mall command premium prices.",
+        "Supply/Demand": "High demand, limited supply for 2-bedroom apartments.",
+        "Risk Assessment": "Medium risk, due to market fluctuations; moderate risk associated with developer reputation."
+      },
+      "Recommendations": [
+        {
+          "Property ID": "APT-123",
+          "Address": "123 Sheikh Zayed Road",
+          "Investment Potential": "High - Projected rental yield of 6%.",
+          "Risk Factors": "Potential for oversupply in the future.",
+          "Alternative Options": "Consider properties in Business Bay for similar features at a slightly lower price."
+        },
+        {
+          "Property ID": "APT-456",
+          "Address": "456 Emaar Boulevard",
+          "Investment Potential": "Medium - Rental yield 5.5%",
+          "Risk Factors": "High service charges.",
+          "Alternative Options": "Consider other units in the building with lower service charges."
+        }
+      ],
+      "Performance Data": {
+        "Search Accuracy": "92%",
+        "Response Time": "2.5 seconds",
+        "Match Precision": "88%",
+        "Coverage Completeness": "90%"
+      }
+    }
+  },
+  {
+    "assessmentResult": {
+      "Input Request": {
+        "Property Type": "Villa",
+        "Budget Range": "USD 2,000,000 - USD 2,500,000",
+        "Preferred Location": "Emirates Hills",
+        "Special Requirements": "5 Bedrooms, Private Pool, Garden"
+      },
+      "Analysis Steps": [
+        "Collected property requirements.",
+        "Queried Bayut API for villas in Emirates Hills.",
+        "Analyzed historical price trends for villas in Emirates Hills.",
+        "Assessed neighborhood amenities and proximity to schools.",
+        "Generated insights on the exclusivity and desirability of Emirates Hills.",
+        "Created a risk assessment considering market stability and property value appreciation."
+      ],
+      "Generated Insights": {
+        "Price Trend": "Emirates Hills villas have seen an average price increase of 10% in the last year.",
+        "Location Insights": "Emirates Hills is a prestigious location with high demand.",
+        "Supply/Demand": "Limited supply of villas meeting the requirements.",
+        "Risk Assessment": "Low risk, considered a prime location with strong market performance."
+      },
+      "Recommendations": [
+        {
+          "Property ID": "VIL-789",
+          "Address": "789 Emirates Hills Drive",
+          "Investment Potential": "Excellent - High capital appreciation and strong rental potential.",
+          "Risk Factors": "High maintenance costs.",
+          "Alternative Options": "Consider a similar villa in The Meadows."
+        },
+        {
+          "Property ID": "VIL-012",
+          "Address": "012 Montgomerie Villas",
+          "Investment Potential": "Good - Stable investment.",
+          "Risk Factors": "None significant.",
+          "Alternative Options": "Consider different plots in the neighborhood."
+        }
+      ],
+      "Performance Data": {
+        "Search Accuracy": "95%",
+        "Response Time": "3.1 seconds",
+        "Match Precision": "93%",
+        "Coverage Completeness": "95%"
+      }
+    }
+  },
+  {
+    "assessmentResult": {
+      "Input Request": {
+        "Property Type": "Townhouse",
+        "Budget Range": "USD 800,000 - USD 1,000,000",
+        "Preferred Location": "Arabian Ranches",
+        "Special Requirements": "3 Bedrooms, Garden, Community Pool"
+      },
+      "Analysis Steps": [
+        "Collected property requirements.",
+        "Queried the Bayut API.",
+        "Analyzed price trends for townhouses in Arabian Ranches.",
+        "Evaluated community amenities and accessibility.",
+        "Generated insights on family-friendly aspects.",
+        "Created a risk assessment for the area."
+      ],
+      "Generated Insights": {
+        "Price Trend": "Arabian Ranches townhouses show steady 6% annual appreciation.",
+        "Location Insights": "Family-friendly environment with good schools and amenities.",
+        "Supply/Demand": "Moderate supply, high demand from families.",
+        "Risk Assessment": "Low-medium risk, due to the stable residential environment."
+      },
+      "Recommendations": [
+        {
+          "Property ID": "TWH-345",
+          "Address": "345 Arabian Ranches 2",
+          "Investment Potential": "Good rental yield and capital appreciation.",
+          "Risk Factors": "Service charges can be high.",
+          "Alternative Options": "Consider townhouses in Arabian Ranches 1."
+        },
+        {
+          "Property ID": "TWH-678",
+          "Address": "678 Arabian Ranches 3",
+          "Investment Potential": "Good appreciation potential.",
+          "Risk Factors": "Relatively new development.",
+          "Alternative Options": "Check the surrounding amenities."
+        }
+      ],
+      "Performance Data": {
+        "Search Accuracy": "89%",
+        "Response Time": "2.8 seconds",
+        "Match Precision": "85%",
+        "Coverage Completeness": "87%"
+      }
+    }
+  },
+  {
+    "assessmentResult": {
+      "Input Request": {
+        "Property Type": "Commercial Office Space",
+        "Budget Range": "USD 1,500,000 - USD 2,000,000",
+        "Preferred Location": "Business Bay",
+        "Special Requirements": "1000 sq ft, fitted office space, parking"
+      },
+      "Analysis Steps": [
+        "Collected property requirements.",
+        "Queried Bayut API for commercial listings.",
+        "Analyzed rental yields and occupancy rates.",
+        "Assessed infrastructure and accessibility of Business Bay.",
+        "Generated insights on commercial demand.",
+        "Created a risk assessment considering market fluctuations."
+      ],
+      "Generated Insights": {
+        "Price Trend": "Commercial spaces in Business Bay have seen stable returns.",
+        "Location Insights": "Business Bay has high rental demand for offices.",
+        "Supply/Demand": "High demand, limited supply of fitted offices.",
+        "Risk Assessment": "Medium risk, depending on occupancy rate."
+      },
+      "Recommendations": [
+        {
+          "Property ID": "COM-901",
+          "Address": "901 Business Bay Drive",
+          "Investment Potential": "Good rental yield.",
+          "Risk Factors": "Vacancy risk.",
+          "Alternative Options": "Consider other commercial properties with lower price per square foot."
+        },
+        {
+          "Property ID": "COM-234",
+          "Address": "234 Bay Square",
+          "Investment Potential": "Medium yield.",
+          "Risk Factors": "Lower foot traffic.",
+          "Alternative Options": "Consider properties with higher foot traffic."
+        }
+      ],
+      "Performance Data": {
+        "Search Accuracy": "85%",
+        "Response Time": "3.0 seconds",
+        "Match Precision": "80%",
+        "Coverage Completeness": "82%"
+      }
+    }
+  },
+  {
+    "assessmentResult": {
+      "Input Request": {
+        "Property Type": "Land",
+        "Budget Range": "USD 1,000,000 - USD 1,500,000",
+        "Preferred Location": "Jumeirah Golf Estates",
+        "Special Requirements": "Residential plot, Golf Course View, Minimum 8000 sq ft"
+      },
+      "Analysis Steps": [
+        "Collected property requirements.",
+        "Queried Bayut API for land plots.",
+        "Analyzed land values and appreciation rates.",
+        "Assessed view and location within the golf course.",
+        "Generated insights on development potential.",
+        "Created a risk assessment considering zoning regulations."
+      ],
+      "Generated Insights": {
+        "Price Trend": "Land prices in Jumeirah Golf Estates have been steadily increasing.",
+        "Location Insights": "Prime location with high demand.",
+        "Supply/Demand": "Limited supply of plots available.",
+        "Risk Assessment": "Low-medium risk, land appreciation potential."
+      },
+      "Recommendations": [
+        {
+          "Property ID": "LAN-567",
+          "Address": "567 Jumeirah Golf Estates",
+          "Investment Potential": "High - potential for building villas.",
+          "Risk Factors": "Building permit approvals.",
+          "Alternative Options": "Consider other plots with ready to build options."
+        },
+        {
+          "Property ID": "LAN-890",
+          "Address": "890 Jumeirah Golf Estates",
+          "Investment Potential": "High, strategic location.",
+          "Risk Factors": "Landscaping and construction costs.",
+          "Alternative Options": "Consider plots in a different phase."
+        }
+      ],
+      "Performance Data": {
+        "Search Accuracy": "88%",
+        "Response Time": "2.9 seconds",
+        "Match Precision": "83%",
+        "Coverage Completeness": "85%"
+      }
+    }
+  }
+]
