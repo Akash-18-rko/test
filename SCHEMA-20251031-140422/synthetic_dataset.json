@@ -1,0 +1,120 @@
+[
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-E1",
+      "modelInput": "Property Requirements: Luxury Villa, Budget: Invalid, Location: Dubai",
+      "assessmentType": "Request Validation Issues",
+      "errorDescription": "Invalid budget format (non-numeric). The system should validate budget inputs.",
+      "failureMode": "Invalid budget format",
+      "status": "Failed"
+    }
+  },
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-E2",
+      "modelInput": "Property Requirements: Apartment, Budget: $100000 - $150000, Location: Neverland",
+      "assessmentType": "Request Validation Issues",
+      "errorDescription": "Nonexistent location. The system should validate location inputs against available data.",
+      "failureMode": "Nonexistent location",
+      "status": "Failed"
+    }
+  },
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-E3",
+      "modelInput": "Property Requirements: Studio Apartment, Budget: $500000, Number of Bedrooms: 0",
+      "assessmentType": "Request Validation Issues",
+      "errorDescription": "Conflicting requirements. The system should identify inconsistencies (Studio apartments generally don't have bedrooms).",
+      "failureMode": "Conflicting Requirements",
+      "status": "Failed"
+    }
+  },
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-E4",
+      "modelOutput": "API Timeout Error: Bayut API (504 Gateway Timeout)",
+      "assessmentType": "Processing Errors",
+      "errorDescription": "API timeout error. The system should handle API timeouts gracefully (e.g., retries, error reporting).",
+      "failureMode": "API timeout",
+      "status": "Failed"
+    }
+  },
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-E5",
+      "modelOutput": "Rate Limit Exceeded: Exceeded API call limit.",
+      "assessmentType": "Processing Errors",
+      "errorDescription": "Rate limit exceeded. The system should implement rate limiting strategies and handle the error.",
+      "failureMode": "Rate Limit Exceeded",
+      "status": "Failed"
+    }
+  },
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-E6",
+      "modelOutput": "Data Retrieval Failure: Could not retrieve market data for requested location.",
+      "assessmentType": "Processing Errors",
+      "errorDescription": "Data retrieval failure. The system should handle potential data retrieval failures (e.g., from the API) gracefully.",
+      "failureMode": "Data Retrieval Failure",
+      "status": "Failed"
+    }
+  },
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-E7",
+      "metrics": [
+        {
+          "metricName": "Accuracy",
+          "value": 45,
+          "threshold": 80
+        }
+      ],
+      "assessmentType": "Analysis Problems",
+      "errorDescription": "Degraded accuracy. The model accuracy fell below the threshold.",
+      "failureMode": "Degraded accuracy",
+      "status": "Failed"
+    }
+  },
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-E8",
+      "analysisResult": "Conflicting market trends identified.  Rising prices and declining demand",
+      "assessmentType": "Analysis Problems",
+      "errorDescription": "Conflicting trends. The AI should have robust conflict resolution logic for conflicting signals.",
+      "failureMode": "Conflicting trends",
+      "status": "Failed"
+    }
+  },
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-E9",
+      "metrics": [
+        {
+          "metricName": "Latency",
+          "value": 120,
+          "threshold": 70
+        }
+      ],
+      "assessmentType": "System Metrics",
+      "errorDescription": "High latency. The system took longer than the acceptable threshold.",
+      "failureMode": "High Latency",
+      "status": "Failed"
+    }
+  },
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-E10",
+      "metrics": [
+        {
+          "metricName": "F1-Score",
+          "value": 105,
+          "threshold": 75
+        }
+      ],
+      "assessmentType": "System Metrics",
+      "errorDescription": "Unrealistic performance. F1-Score above 100%.",
+      "failureMode": "Calculation errors",
+      "status": "Failed"
+    }
+  }
+]
