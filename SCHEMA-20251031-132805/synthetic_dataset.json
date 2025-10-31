@@ -1,0 +1,612 @@
+[
+  {
+    "id": "AI-UC-AST-005",
+    "aiApproach": "Hybrid AI with Quantum Computing",
+    "aiCategory": "AI for Drug Discovery",
+    "aiCloudProvider": "AWS",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Reinforcement Learning & Symbolic AI",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "GPT-5, Qiskit integration",
+    "businessUsage": "Accelerated drug discovery through protein folding prediction, utilizing a multi-model approach combining deep learning and quantum computing for unprecedented accuracy.",
+    "category": "AI Research & Development",
+    "cloudProvider": "AWS",
+    "createdAt": "2020-01-15T10:00:00.000000",
+    "department": "R&D BioTech",
+    "impact": "HIGH",
+    "keyActivity": "Predicting protein structures and optimizing drug interactions using a multi-model approach with quantum and hybrid AI integration.",
+    "level": 3,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Ratio of correct predictions for protein folding.",
+        "threshold": 99
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time for prediction results",
+        "threshold": 10
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Precision rate of drug-target binding predictions.",
+        "threshold": 98
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Proportion of drug candidates identified",
+        "threshold": 95
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Overall measure of drug-target prediction.",
+        "threshold": 96
+      }
+    ],
+    "modelDescription": "A cutting-edge model combining multiple AI approaches to accelerate drug discovery, incorporating quantum computing simulations.",
+    "modelInput": "Protein sequences, drug compounds, environmental conditions",
+    "modelName": "Quantum Drug Discovery Engine",
+    "modelOutput": "Drug candidates, docking scores, predicted binding affinity",
+    "modelPurpose": "To accelerate drug discovery process by simulating protein folding.",
+    "modelSummary": "Multi-model AI for drug discovery, leveraging quantum computing.",
+    "modelUsage": "Used to predict protein structure, search for effective drug candidates, and generate insights.",
+    "overallRisk": "HIGH",
+    "platform": "Python, TensorFlow, Qiskit",
+    "priorityType": "HIGH-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 20000,
+    "sector": "BioTech",
+    "status": "completed",
+    "updatedAt": "2020-01-16T12:00:00.000000",
+    "useFrequency": "Monthly"
+  },
+  {
+    "id": "AI-UC-AST-006",
+    "aiApproach": "Experimental AI with Symbolic Reasoning",
+    "aiCategory": "AI for Robotics",
+    "aiCloudProvider": "Azure",
+    "aiFeatureGeneratingStatus": "in_progress",
+    "AIMethodologyType": "Expert Systems & Neuro-Symbolic AI",
+    "aiProgressGeneratingStatus": "pending",
+    "baseModelName": "Custom Logic Engine",
+    "businessUsage": "Autonomous robot navigation and decision-making in complex environments utilizing symbolic AI and advanced reasoning capabilities.",
+    "category": "AI Robotics",
+    "cloudProvider": "Azure",
+    "createdAt": "2023-05-20T08:00:00.000000",
+    "department": "Robotics Engineering",
+    "impact": "MEDIUM",
+    "keyActivity": "Robot navigation, object recognition, and high level planning tasks.",
+    "level": 3,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Success Rate of Navigation",
+        "threshold": 85
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Average time to make decisions",
+        "threshold": 15
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Precision rate for object detection",
+        "threshold": 80
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Completeness in detecting objects",
+        "threshold": 75
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Combined performance of object recognition.",
+        "threshold": 78
+      }
+    ],
+    "modelDescription": "AI-driven autonomous navigation using symbolic reasoning in dynamic environments.",
+    "modelInput": "Sensor Data, Map Data, Task Commands",
+    "modelName": "SymBot Navigator",
+    "modelOutput": "Navigation commands, action decisions",
+    "modelPurpose": "Provide robust and precise robot navigation in unknown environments.",
+    "modelSummary": "Symbolic reasoning for improved autonomous navigation.",
+    "modelUsage": "Robot autonomy, obstacle avoidance and path planning.",
+    "overallRisk": "HIGH",
+    "platform": "ROS, Python, custom symbolic engines",
+    "priorityType": "HIGH-RISK AI",
+    "processingStatus": "in_progress",
+    "projectId": 10001,
+    "sector": "Robotics",
+    "status": "in_progress",
+    "updatedAt": "2023-05-22T10:00:00.000000",
+    "useFrequency": "Daily"
+  },
+  {
+    "id": "AI-UC-AST-007",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI for Image Generation",
+    "aiCloudProvider": "GCP",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "GANs, Diffusion Models",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "Stable Diffusion, Custom Training",
+    "businessUsage": "Creation of original digital art based on text prompts. Artists can use it for inspiration or final product.",
+    "category": "AI Art",
+    "cloudProvider": "GCP",
+    "createdAt": "2024-03-10T14:00:00.000000",
+    "department": "Creative Arts",
+    "impact": "LOW",
+    "keyActivity": "Text-to-image conversion, style transfer and image manipulation.",
+    "level": 1,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Match text with image.",
+        "threshold": 70
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time to generate an image",
+        "threshold": 60
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Accurate Image Generation",
+        "threshold": 65
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Image generation relevant to the context.",
+        "threshold": 60
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Image Generation stability",
+        "threshold": 62
+      }
+    ],
+    "modelDescription": "An image generation model based on Stable Diffusion and custom-trained.",
+    "modelInput": "Text prompts, style parameters.",
+    "modelName": "ArtGenesis",
+    "modelOutput": "High resolution images",
+    "modelPurpose": "Generate new images based on textual descriptions.",
+    "modelSummary": "Generates images from text prompts.",
+    "modelUsage": "Text-to-image generation.",
+    "overallRisk": "MEDIUM",
+    "platform": "Python, TensorFlow, custom libraries",
+    "priorityType": "LOW-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 10002,
+    "sector": "Creative Arts",
+    "status": "completed",
+    "updatedAt": "2024-03-12T16:00:00.000000",
+    "useFrequency": "Daily"
+  },
+  {
+    "id": "AI-UC-AST-008",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI for Fraud Detection",
+    "aiCloudProvider": "AWS",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Anomaly Detection, Rule-Based",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "Custom",
+    "businessUsage": "Real-time fraud detection for financial transactions, improving transaction security by detecting fraud in real time",
+    "category": "AI Security",
+    "cloudProvider": "AWS",
+    "createdAt": "2024-07-20T10:00:00.000000",
+    "department": "Finance Security",
+    "impact": "HIGH",
+    "keyActivity": "Detect fraudulent transactions in real time.",
+    "level": 2,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Ratio of correct predictions.",
+        "threshold": 95
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time taken for processing a transaction.",
+        "threshold": 10
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Percentage of correctly identified frauds.",
+        "threshold": 90
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Percentage of detected fraud cases.",
+        "threshold": 88
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balance of precision and recall.",
+        "threshold": 89
+      }
+    ],
+    "modelDescription": "Real-time fraud detection using anomaly detection.",
+    "modelInput": "Transaction data, user behavior.",
+    "modelName": "FraudShield",
+    "modelOutput": "Fraud/Not Fraud flags, alerts.",
+    "modelPurpose": "To reduce financial fraud.",
+    "modelSummary": "Fraud detection engine.",
+    "modelUsage": "Detecting fraudulent activity.",
+    "overallRisk": "HIGH",
+    "platform": "Python, Spark, custom libraries",
+    "priorityType": "HIGH-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 30001,
+    "sector": "Finance",
+    "status": "completed",
+    "updatedAt": "2024-07-22T12:00:00.000000",
+    "useFrequency": "Daily"
+  },
+  {
+    "id": "AI-UC-AST-009",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI for Healthcare",
+    "aiCloudProvider": "Azure",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Convolutional Neural Networks (CNNs)",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "Custom, Transfer Learning",
+    "businessUsage": "Diagnostic imaging analysis: assisting radiologists in the detection of anomalies.",
+    "category": "AI Healthcare",
+    "cloudProvider": "Azure",
+    "createdAt": "2023-11-15T09:00:00.000000",
+    "department": "Radiology",
+    "impact": "HIGH",
+    "keyActivity": "Automatic detection of medical imaging anomalies (e.g., tumors, fractures).",
+    "level": 3,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Percentage of correct diagnoses.",
+        "threshold": 92
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time for image analysis.",
+        "threshold": 5
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Correct diagnosis precision.",
+        "threshold": 88
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Detected anomalies.",
+        "threshold": 90
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Combine both.",
+        "threshold": 89
+      }
+    ],
+    "modelDescription": "AI-driven image analysis model for radiology.",
+    "modelInput": "Medical images (X-rays, MRIs, etc.).",
+    "modelName": "MedVision",
+    "modelOutput": "Anomaly detection reports.",
+    "modelPurpose": "Support radiologist.",
+    "modelSummary": "Image analysis model.",
+    "modelUsage": "To support radiologists in diagnostics.",
+    "overallRisk": "HIGH",
+    "platform": "Python, TensorFlow, Azure ML",
+    "priorityType": "HIGH-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 40001,
+    "sector": "Healthcare",
+    "status": "completed",
+    "updatedAt": "2023-11-17T11:00:00.000000",
+    "useFrequency": "Daily"
+  },
+  {
+    "id": "AI-UC-AST-010",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI Workflow Agents",
+    "aiCloudProvider": "GCP",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Rule-Based Automation",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "GPT-4",
+    "businessUsage": "Automated customer support platform providing instant solutions, ticket routing.",
+    "category": "AI Customer Service",
+    "cloudProvider": "GCP",
+    "createdAt": "2025-05-01T08:00:00.000000",
+    "department": "Customer Support",
+    "impact": "MEDIUM",
+    "keyActivity": "Customer query resolution, ticket routing, and feedback analysis.",
+    "level": 2,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Rate of correct response.",
+        "threshold": 85
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Response time",
+        "threshold": 2
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Accuracy of the provided information.",
+        "threshold": 80
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Ability of retrieving all relevant cases.",
+        "threshold": 75
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Performance of information retrieval.",
+        "threshold": 77
+      }
+    ],
+    "modelDescription": "AI-powered customer service.",
+    "modelInput": "Customer queries, context information.",
+    "modelName": "SupportBot",
+    "modelOutput": "Customer service response, tickets.",
+    "modelPurpose": "Resolve customer issues.",
+    "modelSummary": "Customer support automation.",
+    "modelUsage": "Handle customer queries.",
+    "overallRisk": "MEDIUM",
+    "platform": "React, TypeScript, GCP",
+    "priorityType": "MEDIUM-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 10940,
+    "sector": "Customer Service",
+    "status": "completed",
+    "updatedAt": "2025-05-03T10:00:00.000000",
+    "useFrequency": "Daily"
+  },
+  {
+    "id": "AI-UC-AST-011",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI for Transportation",
+    "aiCloudProvider": "AWS",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Reinforcement Learning",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "Custom, Deep Learning",
+    "businessUsage": "Autonomous vehicle control: enhancing safety.",
+    "category": "AI Transportation",
+    "cloudProvider": "AWS",
+    "createdAt": "2024-10-01T09:00:00.000000",
+    "department": "Automotive Engineering",
+    "impact": "HIGH",
+    "keyActivity": "Steering, braking, and navigation.",
+    "level": 3,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Correct decision in navigation.",
+        "threshold": 90
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Processing time for each frame.",
+        "threshold": 1
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Accuracy in making the right decisions.",
+        "threshold": 85
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Complete object detection.",
+        "threshold": 80
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Overall measure of navigation.",
+        "threshold": 82
+      }
+    ],
+    "modelDescription": "Autonomous vehicle control system.",
+    "modelInput": "Sensor data, GPS",
+    "modelName": "AutoDrive",
+    "modelOutput": "Steering, acceleration, brake",
+    "modelPurpose": "Navigation, Obstacle avoidance.",
+    "modelSummary": "Autonomous vehicle.",
+    "modelUsage": "Driving.",
+    "overallRisk": "HIGH",
+    "platform": "Python, ROS, AWS",
+    "priorityType": "HIGH-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 50001,
+    "sector": "Transportation",
+    "status": "completed",
+    "updatedAt": "2024-10-03T11:00:00.000000",
+    "useFrequency": "Daily"
+  },
+  {
+    "id": "AI-UC-AST-012",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI for Retail",
+    "aiCloudProvider": "GCP",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Recommendation Systems",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "Custom",
+    "businessUsage": "Product recommendations.",
+    "category": "AI Retail",
+    "cloudProvider": "GCP",
+    "createdAt": "2024-02-15T12:00:00.000000",
+    "department": "E-Commerce",
+    "impact": "MEDIUM",
+    "keyActivity": "Product Recommendations.",
+    "level": 1,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "The accuracy of suggestions.",
+        "threshold": 78
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time for serving suggestions.",
+        "threshold": 10
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Suggested products.",
+        "threshold": 75
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Retrieval rate.",
+        "threshold": 70
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Recommend stability.",
+        "threshold": 72
+      }
+    ],
+    "modelDescription": "Product Recommendation System.",
+    "modelInput": "User history.",
+    "modelName": "Recommender",
+    "modelOutput": "Product suggestions.",
+    "modelPurpose": "Increase sales.",
+    "modelSummary": "Product Recommendation.",
+    "modelUsage": "Recommending products.",
+    "overallRisk": "LOW",
+    "platform": "Python, TensorFlow, GCP",
+    "priorityType": "LOW-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 60001,
+    "sector": "Retail",
+    "status": "completed",
+    "updatedAt": "2024-02-17T14:00:00.000000",
+    "useFrequency": "Daily"
+  },
+  {
+    "id": "AI-UC-AST-013",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI for Finance",
+    "aiCloudProvider": "AWS",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Time Series Analysis, Predictive Modeling",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "Custom, LSTM",
+    "businessUsage": "Automated financial market forecasting.",
+    "category": "AI Finance",
+    "cloudProvider": "AWS",
+    "createdAt": "2024-08-22T14:00:00.000000",
+    "department": "Financial Analysis",
+    "impact": "HIGH",
+    "keyActivity": "Market trend forecasting using machine learning.",
+    "level": 3,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Accuracy of forecasts.",
+        "threshold": 80
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Response time",
+        "threshold": 1
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Forecast results.",
+        "threshold": 70
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Recall measure.",
+        "threshold": 65
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure of the forecasting.",
+        "threshold": 67
+      }
+    ],
+    "modelDescription": "AI-powered financial forecasting model.",
+    "modelInput": "Market data, economic indicators.",
+    "modelName": "FinForecast",
+    "modelOutput": "Financial predictions.",
+    "modelPurpose": "To automate financial forecasting.",
+    "modelSummary": "AI for financial forecasting.",
+    "modelUsage": "Market trend prediction.",
+    "overallRisk": "HIGH",
+    "platform": "Python, TensorFlow, AWS",
+    "priorityType": "HIGH-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 70001,
+    "sector": "Finance",
+    "status": "completed",
+    "updatedAt": "2024-08-24T16:00:00.000000",
+    "useFrequency": "Daily"
+  },
+  {
+    "id": "AI-UC-AST-014",
+    "aiApproach": "Rule-Based",
+    "aiCategory": "AI for HR",
+    "aiCloudProvider": "Azure",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Rule Based, NLP",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "Custom",
+    "businessUsage": "Screening of resumes.",
+    "category": "AI Human Resources",
+    "cloudProvider": "Azure",
+    "createdAt": "2024-06-05T10:00:00.000000",
+    "department": "HR",
+    "impact": "MEDIUM",
+    "keyActivity": "Scanning and evaluating of resumes.",
+    "level": 1,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Matching resumes.",
+        "threshold": 75
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Processing Time",
+        "threshold": 3
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Relevant resumes.",
+        "threshold": 70
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Resume retrieval.",
+        "threshold": 65
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Screening stability",
+        "threshold": 67
+      }
+    ],
+    "modelDescription": "Resume screening.",
+    "modelInput": "Resume data.",
+    "modelName": "ResumeReader",
+    "modelOutput": "candidate profiles",
+    "modelPurpose": "To automate the resume screening.",
+    "modelSummary": "Resume scanning engine.",
+    "modelUsage": "Automatic screening of resumes.",
+    "overallRisk": "MEDIUM",
+    "platform": "Python, Azure",
+    "priorityType": "MEDIUM-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 80001,
+    "sector": "HR",
+    "status": "completed",
+    "updatedAt": "2024-06-07T12:00:00.000000",
+    "useFrequency": "Weekly"
+  }
+]
