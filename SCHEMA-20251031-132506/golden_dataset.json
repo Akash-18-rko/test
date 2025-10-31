@@ -1,0 +1,307 @@
+[
+  {
+    "id": "AI-UC-AST-001",
+    "aiApproach": "Transfer Learning",
+    "aiCategory": "Computer Vision",
+    "aiCloudProvider": "AWS",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Convolutional Neural Networks (CNN)",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "ResNet-50",
+    "businessUsage": "Automated defect detection on manufactured products using image analysis.  Reduces manual inspection time and improves accuracy.",
+    "category": "Quality Control",
+    "cloudProvider": "AWS",
+    "createdAt": "2024-03-15T09:15:30.123456",
+    "department": "Manufacturing",
+    "impact": "HIGH",
+    "keyActivity": "Real-time image analysis of production line items to identify defects.",
+    "level": 3,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Percentage of correctly identified defects.",
+        "threshold": 92
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time taken to process each image.",
+        "threshold": 50
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Proportion of positive identifications that were correct.",
+        "threshold": 88
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Ability to find all actual defects.",
+        "threshold": 90
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Harmonic mean of precision and recall.",
+        "threshold": 89
+      }
+    ],
+    "modelDescription": "A CNN model trained on a large dataset of product images to identify defects.",
+    "modelInput": "Images from production line cameras.",
+    "modelName": "Defect Detection AI",
+    "modelOutput": "Defect classification (e.g., crack, scratch, missing component).",
+    "modelPurpose": "To automate and improve the accuracy of defect detection on manufactured products.",
+    "modelSummary": "Automates defect detection, reducing human error and improving quality.",
+    "modelUsage": "Detects defects in real-time on the production line, triggering alerts and enabling immediate corrective action.",
+    "overallRisk": "MEDIUM",
+    "platform": "TensorFlow, SageMaker, Python",
+    "priorityType": "HIGH-IMPACT AI",
+    "processingStatus": "completed",
+    "projectId": 11235,
+    "sector": "Manufacturing",
+    "status": "completed",
+    "updatedAt": "2024-03-16T10:20:45.678901",
+    "useFrequency": "Continuous"
+  },
+  {
+    "id": "AI-UC-AST-002",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "NLP",
+    "aiCloudProvider": "Azure",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Transformer-Based Models",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "BERT",
+    "businessUsage": "Sentiment analysis of customer reviews to understand customer satisfaction and identify areas for improvement.",
+    "category": "Customer Relationship Management",
+    "cloudProvider": "Azure",
+    "createdAt": "2025-07-20T14:45:00.987654",
+    "department": "Customer Service",
+    "impact": "MEDIUM",
+    "keyActivity": "Processing and analyzing customer reviews to determine sentiment.",
+    "level": 2,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Accuracy of sentiment classification.",
+        "threshold": 85
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time taken to classify sentiment for a review.",
+        "threshold": 60
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Proportion of correctly identified positive/negative sentiments.",
+        "threshold": 82
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Ability to identify all positive/negative sentiments.",
+        "threshold": 80
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Harmonic mean of precision and recall.",
+        "threshold": 81
+      }
+    ],
+    "modelDescription": "A BERT-based model trained on a large dataset of customer reviews to classify sentiment.",
+    "modelInput": "Customer reviews (text data).",
+    "modelName": "Customer Sentiment Analyzer",
+    "modelOutput": "Sentiment classification (positive, negative, neutral).",
+    "modelPurpose": "To automate and improve the accuracy of sentiment analysis of customer reviews.",
+    "modelSummary": "Analyzes customer sentiment, enabling proactive customer service and product improvement.",
+    "modelUsage": "Classifies the sentiment of customer reviews, providing insights into customer satisfaction and identifying areas for improvement.",
+    "overallRisk": "LOW",
+    "platform": "PyTorch, Azure Machine Learning, Python",
+    "priorityType": "MEDIUM-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 12048,
+    "sector": "Retail",
+    "status": "completed",
+    "updatedAt": "2025-07-21T15:50:15.234567",
+    "useFrequency": "Daily"
+  },
+  {
+    "id": "AI-UC-AST-003",
+    "aiApproach": "Ensemble Methods",
+    "aiCategory": "Predictive Analytics",
+    "aiCloudProvider": "GCP",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Gradient Boosting",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "XGBoost",
+    "businessUsage": "Predicting equipment failures to enable preventative maintenance and reduce downtime.",
+    "category": "Maintenance",
+    "cloudProvider": "GCP",
+    "createdAt": "2026-01-05T08:00:00.000000",
+    "department": "Operations",
+    "impact": "HIGH",
+    "keyActivity": "Predicting equipment failures based on sensor data and historical performance.",
+    "level": 3,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Overall accuracy of failure prediction.",
+        "threshold": 90
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time to generate predictions.",
+        "threshold": 40
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Precision of failure predictions.",
+        "threshold": 85
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Recall of failure predictions.",
+        "threshold": 88
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure of precision and recall.",
+        "threshold": 86
+      }
+    ],
+    "modelDescription": "An ensemble model using XGBoost to predict equipment failures.",
+    "modelInput": "Sensor data, maintenance logs, and historical performance data.",
+    "modelName": "Predictive Maintenance System",
+    "modelOutput": "Probability of equipment failure within a specific timeframe.",
+    "modelPurpose": "To predict equipment failures, enabling preventative maintenance and reducing downtime.",
+    "modelSummary": "Predicts equipment failures, reducing downtime and maintenance costs.",
+    "modelUsage": "Predicts equipment failures, triggering maintenance alerts.",
+    "overallRisk": "MEDIUM",
+    "platform": "Scikit-learn, GCP AI Platform, Python",
+    "priorityType": "HIGH-IMPACT AI",
+    "processingStatus": "completed",
+    "projectId": 13123,
+    "sector": "Manufacturing",
+    "status": "completed",
+    "updatedAt": "2026-01-06T09:10:00.000000",
+    "useFrequency": "Hourly"
+  },
+  {
+    "id": "AI-UC-AST-004",
+    "aiApproach": "Reinforcement Learning",
+    "aiCategory": "AI Workflow Agents",
+    "aiCloudProvider": "AWS",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Q-Learning",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "N/A - Custom RL Agent",
+    "businessUsage": "Optimizing warehouse inventory allocation to minimize storage costs and improve order fulfillment efficiency.",
+    "category": "Supply Chain Optimization",
+    "cloudProvider": "AWS",
+    "createdAt": "2024-11-10T12:00:00.000000",
+    "department": "Logistics",
+    "impact": "HIGH",
+    "keyActivity": "Dynamically allocating inventory based on real-time demand and storage capacity.",
+    "level": 3,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Accuracy of picking location suggestions",
+        "threshold": 88
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time to provide inventory allocation suggestion.",
+        "threshold": 50
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Precision of optimized inventory distribution.",
+        "threshold": 85
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Recall of optimized distribution (i.e. number of fulfilled orders) ",
+        "threshold": 82
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure of optimized distribution and pick location suggestions",
+        "threshold": 83
+      }
+    ],
+    "modelDescription": "Reinforcement Learning agent to optimize the distribution and placement of goods in a warehouse.",
+    "modelInput": "Current inventory levels, order requests, and warehouse layout.",
+    "modelName": "Inventory Optimization Agent",
+    "modelOutput": "Optimized inventory placement suggestions.",
+    "modelPurpose": "To minimize storage costs and improve order fulfillment efficiency.",
+    "modelSummary": "Optimizes warehouse inventory placement and order fulfillment.",
+    "modelUsage": "Provides real-time optimization of inventory placement, reducing costs.",
+    "overallRisk": "MEDIUM",
+    "platform": "PyTorch, AWS Sagemaker, Python",
+    "priorityType": "HIGH-IMPACT AI",
+    "processingStatus": "completed",
+    "projectId": 14567,
+    "sector": "Logistics",
+    "status": "completed",
+    "updatedAt": "2024-11-11T13:10:00.000000",
+    "useFrequency": "Continuous"
+  },
+  {
+    "id": "AI-UC-AST-005",
+    "aiApproach": "Federated Learning",
+    "aiCategory": "NLP",
+    "aiCloudProvider": "GCP",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Transformer-Based Models",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "RoBERTa",
+    "businessUsage": "Building a custom chatbot model that can respond to customer inquiries based on private customer data sources in a privacy-preserving way, without data leaving the clients' infrastructure.",
+    "category": "Customer Support",
+    "cloudProvider": "GCP",
+    "createdAt": "2025-05-18T10:00:00.000000",
+    "department": "Customer Service",
+    "impact": "MEDIUM",
+    "keyActivity": "Training the chatbot on a decentralized dataset across multiple clients, to respect data privacy.",
+    "level": 2,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Accuracy of the chatbot's response on held-out test data.",
+        "threshold": 82
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time to provide response to user question.",
+        "threshold": 75
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Precision of the chatbot's response.",
+        "threshold": 80
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Recall of the chatbot's response.",
+        "threshold": 78
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure of precision and recall.",
+        "threshold": 79
+      }
+    ],
+    "modelDescription": "A federated learning model based on the RoBERTa architecture trained across decentralized client datasets.",
+    "modelInput": "Customer inquiries and knowledge base.",
+    "modelName": "Federated Customer Support Chatbot",
+    "modelOutput": "Natural language responses.",
+    "modelPurpose": "To build a custom chatbot to address user questions.",
+    "modelSummary": "Provides privacy-preserving customer support with a federated learning approach.",
+    "modelUsage": "User inquiries are answered in a private manner.",
+    "overallRisk": "MEDIUM",
+    "platform": "Tensorflow Federated, Python, Google Cloud",
+    "priorityType": "MEDIUM-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 15001,
+    "sector": "Customer Support",
+    "status": "completed",
+    "updatedAt": "2025-05-19T11:10:00.000000",
+    "useFrequency": "Continuous"
+  }
+]
