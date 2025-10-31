@@ -1,0 +1,192 @@
+[
+  {
+    "assessmentResult": {
+      "modelPerformance": {
+        "accuracy": "85%",
+        "latency": "1.2 seconds",
+        "precision": "82%",
+        "recall": "78%",
+        "f1Score": "80%",
+        "predictionDistribution": {
+          "pricePredictions": {
+            "mean": 450000,
+            "stdDev": 75000,
+            "range": "300000 - 650000",
+            "confidenceInterval": "95%"
+          }
+        }
+      },
+      "marketAnalysis": {
+        "historicalData": "5 years of market trends analyzed",
+        "trendSummary": "Property values increased by 15% in the last year",
+        "locationInsights": {
+          "averageRentalYield": "4.5%",
+          "neighborhoodData": "Crime rates, school ratings, and proximity to amenities analyzed for each location"
+        }
+      },
+      "reportGeneration": {
+        "reportType": "PDF",
+        "reportGenerationTime": "3 seconds",
+        "errorRate": "0.5%",
+        "userSatisfaction": "90% (based on user feedback)"
+      },
+      "apiIntegration": {
+        "bayutApiAvailability": "99.9% uptime",
+        "dataUpdateFrequency": "Daily",
+        "apiCallSuccessRate": "98%"
+      }
+    }
+  },
+  {
+    "assessmentResult": {
+      "modelPerformance": {
+        "accuracy": "87%",
+        "latency": "1.0 seconds",
+        "precision": "85%",
+        "recall": "80%",
+        "f1Score": "82%",
+        "predictionDistribution": {
+          "pricePredictions": {
+            "mean": 600000,
+            "stdDev": 80000,
+            "range": "400000 - 800000",
+            "confidenceInterval": "95%"
+          }
+        }
+      },
+      "marketAnalysis": {
+        "historicalData": "Market analysis across the last 3 years.",
+        "trendSummary": "Median listing prices increased 12% YOY.",
+        "locationInsights": {
+          "averageRentalYield": "5%",
+          "neighborhoodData": "School ratings, crime rate comparisons, proximity to services like hospitals."
+        }
+      },
+      "reportGeneration": {
+        "reportType": "PDF",
+        "reportGenerationTime": "2.8 seconds",
+        "errorRate": "0.3%",
+        "userSatisfaction": "92% (from user surveys)"
+      },
+      "apiIntegration": {
+        "bayutApiAvailability": "99.8%",
+        "dataUpdateFrequency": "Daily",
+        "apiCallSuccessRate": "97%"
+      }
+    }
+  },
+  {
+    "assessmentResult": {
+      "modelPerformance": {
+        "accuracy": "83%",
+        "latency": "1.4 seconds",
+        "precision": "80%",
+        "recall": "75%",
+        "f1Score": "77%",
+        "predictionDistribution": {
+          "pricePredictions": {
+            "mean": 550000,
+            "stdDev": 70000,
+            "range": "420000 - 700000",
+            "confidenceInterval": "90%"
+          }
+        }
+      },
+      "marketAnalysis": {
+        "historicalData": "Historical data for the last 4 years.",
+        "trendSummary": "Interest rate changes impacted property values, with a 8% increase.",
+        "locationInsights": {
+          "averageRentalYield": "4.7%",
+          "neighborhoodData": "Detailed analysis of amenities and public transportation."
+        }
+      },
+      "reportGeneration": {
+        "reportType": "PDF",
+        "reportGenerationTime": "3.2 seconds",
+        "errorRate": "0.6%",
+        "userSatisfaction": "88% (based on user feedback)"
+      },
+      "apiIntegration": {
+        "bayutApiAvailability": "99.7%",
+        "dataUpdateFrequency": "Daily",
+        "apiCallSuccessRate": "96%"
+      }
+    }
+  },
+  {
+    "assessmentResult": {
+      "modelPerformance": {
+        "accuracy": "86%",
+        "latency": "1.1 seconds",
+        "precision": "84%",
+        "recall": "79%",
+        "f1Score": "81%",
+        "predictionDistribution": {
+          "pricePredictions": {
+            "mean": 500000,
+            "stdDev": 78000,
+            "range": "350000 - 680000",
+            "confidenceInterval": "95%"
+          }
+        }
+      },
+      "marketAnalysis": {
+        "historicalData": "5 years of market trend data.",
+        "trendSummary": "Increased demand leads to 10% price increase in the last quarter.",
+        "locationInsights": {
+          "averageRentalYield": "4.8%",
+          "neighborhoodData": "Detailed neighborhood statistics."
+        }
+      },
+      "reportGeneration": {
+        "reportType": "PDF",
+        "reportGenerationTime": "2.9 seconds",
+        "errorRate": "0.4%",
+        "userSatisfaction": "91% (based on user surveys)"
+      },
+      "apiIntegration": {
+        "bayutApiAvailability": "99.9%",
+        "dataUpdateFrequency": "Daily",
+        "apiCallSuccessRate": "98%"
+      }
+    }
+  },
+  {
+    "assessmentResult": {
+      "modelPerformance": {
+        "accuracy": "84%",
+        "latency": "1.3 seconds",
+        "precision": "81%",
+        "recall": "76%",
+        "f1Score": "78%",
+        "predictionDistribution": {
+          "pricePredictions": {
+            "mean": 480000,
+            "stdDev": 72000,
+            "range": "340000 - 660000",
+            "confidenceInterval": "90%"
+          }
+        }
+      },
+      "marketAnalysis": {
+        "historicalData": "Real time market and trend analysis",
+        "trendSummary": "Market sees a gradual increase in prices, a 7% rise.",
+        "locationInsights": {
+          "averageRentalYield": "4.6%",
+          "neighborhoodData": "Comparison of different property types and their relative values."
+        }
+      },
+      "reportGeneration": {
+        "reportType": "PDF",
+        "reportGenerationTime": "3.1 seconds",
+        "errorRate": "0.5%",
+        "userSatisfaction": "89% (from user surveys)"
+      },
+      "apiIntegration": {
+        "bayutApiAvailability": "99.8%",
+        "dataUpdateFrequency": "Daily",
+        "apiCallSuccessRate": "97%"
+      }
+    }
+  }
+]
