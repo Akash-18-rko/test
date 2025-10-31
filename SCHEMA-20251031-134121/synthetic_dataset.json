@@ -1,0 +1,612 @@
+[
+  {
+    "id": "AI-UC-AST-004-001",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI Workflow Agents",
+    "aiCloudProvider": "GCP",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Rule-Based Automation",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "GPT-4",
+    "businessUsage": "The AI Real Estate Consultancy Platform allows users to submit property requirements, enables admins to manage and analyze these requests, and provides insights with Google Maps integration and market trend analysis.",
+    "category": "AI Inventory",
+    "cloudProvider": "GCP",
+    "createdAt": "2025-10-30T11:36:24.844150",
+    "department": "Real Estate Consultancy",
+    "impact": "MEDIUM",
+    "keyActivity": "The primary activity is to automate the property search and reporting process, integrating market trend analysis and location insights.",
+    "level": 2,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Ratio of correct predictions over total showing prediction reliability",
+        "threshold": 95
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time taken to process data showing responsiveness",
+        "threshold": 65
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Proportion of correct positive predictions showing relevance",
+        "threshold": 90
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Completeness in detecting relevant cases showing coverage",
+        "threshold": 85
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure combining relevance and completeness showing stability",
+        "threshold": 87
+      }
+    ],
+    "modelDescription": "The model automates the process of collecting property requirements from users and fetching relevant property listings using the Bayut API.",
+    "modelInput": "Property Requirements Form, Language Preference, Currency Preference",
+    "modelName": "LN2 Real Estate Consultancy AI",
+    "modelOutput": "PDF Report, Email Notification",
+    "modelPurpose": "To automate the property search process and provide comprehensive reports to real estate consultants.",
+    "modelSummary": "The model streamlines property consultation by automating the search and reporting process, providing valuable insights and location context.",
+    "modelUsage": "The model is used to collect property requirements, fetch matching listings, and generate reports with market trends and location insights.",
+    "overallRisk": "MEDIUM",
+    "platform": "React, TypeScript, GCP",
+    "priorityType": "MEDIUM-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 10939,
+    "sector": "Real Estate",
+    "status": "completed",
+    "updatedAt": "2025-10-30T11:36:24.844150",
+    "useFrequency": "Weekly"
+  },
+  {
+    "id": "AI-UC-AST-004-002",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI Workflow Agents",
+    "aiCloudProvider": "GCP",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Rule-Based Automation",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "GPT-4",
+    "businessUsage": "The AI Real Estate Consultancy Platform allows users to submit property requirements, enables admins to manage and analyze these requests, and provides insights with Google Maps integration and market trend analysis.",
+    "category": "AI Inventory",
+    "cloudProvider": "GCP",
+    "createdAt": "2025-10-30T11:36:24.844150",
+    "department": "Real Estate Consultancy",
+    "impact": "MEDIUM",
+    "keyActivity": "The primary activity is to automate the property search and reporting process, integrating market trend analysis and location insights.",
+    "level": 2,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Ratio of correct predictions over total showing prediction reliability",
+        "threshold": 10
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time taken to process data showing responsiveness",
+        "threshold": 95
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Proportion of correct positive predictions showing relevance",
+        "threshold": 15
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Completeness in detecting relevant cases showing coverage",
+        "threshold": 10
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure combining relevance and completeness showing stability",
+        "threshold": 12
+      }
+    ],
+    "modelDescription": "The model automates the process of collecting property requirements from users and fetching relevant property listings using the Bayut API.",
+    "modelInput": "Property Requirements Form, Language Preference, Currency Preference",
+    "modelName": "LN2 Real Estate Consultancy AI",
+    "modelOutput": "PDF Report, Email Notification",
+    "modelPurpose": "To automate the property search process and provide comprehensive reports to real estate consultants.",
+    "modelSummary": "The model streamlines property consultation by automating the search and reporting process, providing valuable insights and location context.",
+    "modelUsage": "The model is used to collect property requirements, fetch matching listings, and generate reports with market trends and location insights.",
+    "overallRisk": "MEDIUM",
+    "platform": "React, TypeScript, GCP",
+    "priorityType": "MEDIUM-RISK AI",
+    "processingStatus": "in_progress",
+    "projectId": 10939,
+    "sector": "Real Estate",
+    "status": "Not yet started",
+    "updatedAt": "2025-10-30T11:36:24.844150",
+    "useFrequency": "Weekly"
+  },
+  {
+    "id": "AI-UC-AST-004-003",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI Workflow Agents",
+    "aiCloudProvider": "GCP",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Rule-Based Automation",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "GPT-4",
+    "businessUsage": "The AI Real Estate Consultancy Platform allows users to submit property requirements, enables admins to manage and analyze these requests, and provides insights with Google Maps integration and market trend analysis.",
+    "category": "AI Inventory",
+    "cloudProvider": "GCP",
+    "createdAt": "2023-10-30T11:36:24.844150",
+    "department": "Real Estate Consultancy",
+    "impact": "MEDIUM",
+    "keyActivity": "The primary activity is to automate the property search and reporting process, integrating market trend analysis and location insights.",
+    "level": 2,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Ratio of correct predictions over total showing prediction reliability",
+        "threshold": 70
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time taken to process data showing responsiveness",
+        "threshold": 80
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Proportion of correct positive predictions showing relevance",
+        "threshold": 70
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Completeness in detecting relevant cases showing coverage",
+        "threshold": 65
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure combining relevance and completeness showing stability",
+        "threshold": 70
+      }
+    ],
+    "modelDescription": "The model automates the process of collecting property requirements from users and fetching relevant property listings using the Bayut API.",
+    "modelInput": "Property Requirements Form, Language Preference, Currency Preference",
+    "modelName": "LN2 Real Estate Consultancy AI",
+    "modelOutput": "PDF Report, Email Notification",
+    "modelPurpose": "To automate the property search process and provide comprehensive reports to real estate consultants.",
+    "modelSummary": "The model streamlines property consultation by automating the search and reporting process, providing valuable insights and location context.",
+    "modelUsage": "The model is used to collect property requirements, fetch matching listings, and generate reports with market trends and location insights.",
+    "overallRisk": "MEDIUM",
+    "platform": "React, TypeScript, GCP",
+    "priorityType": "MEDIUM-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 10939,
+    "sector": "Real Estate",
+    "status": "completed",
+    "updatedAt": "2025-10-30T11:36:24.844150",
+    "useFrequency": "Weekly"
+  },
+  {
+    "id": "AI-UC-AST-004-004",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI Workflow Agents",
+    "aiCloudProvider": "GCP",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Rule-Based Automation",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "GPT-4",
+    "businessUsage": "The AI Real Estate Consultancy Platform allows users to submit property requirements, enables admins to manage and analyze these requests, and provides insights with Google Maps integration and market trend analysis.",
+    "category": "AI Inventory",
+    "cloudProvider": "GCP",
+    "createdAt": "2025-12-30T11:36:24.844150",
+    "department": "Real Estate Consultancy",
+    "impact": "MEDIUM",
+    "keyActivity": "The primary activity is to automate the property search and reporting process, integrating market trend analysis and location insights.",
+    "level": 2,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Ratio of correct predictions over total showing prediction reliability",
+        "threshold": 80
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time taken to process data showing responsiveness",
+        "threshold": 70
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Proportion of correct positive predictions showing relevance",
+        "threshold": 75
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Completeness in detecting relevant cases showing coverage",
+        "threshold": 70
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure combining relevance and completeness showing stability",
+        "threshold": 75
+      }
+    ],
+    "modelDescription": "The model automates the process of collecting property requirements from users and fetching relevant property listings using the Bayut API.",
+    "modelInput": "Property Requirements Form, Language Preference, Currency Preference",
+    "modelName": "LN2 Real Estate Consultancy AI",
+    "modelOutput": "PDF Report, Email Notification",
+    "modelPurpose": "To automate the property search process and provide comprehensive reports to real estate consultants.",
+    "modelSummary": "The model streamlines property consultation by automating the search and reporting process, providing valuable insights and location context.",
+    "modelUsage": "The model is used to collect property requirements, fetch matching listings, and generate reports with market trends and location insights.",
+    "overallRisk": "MEDIUM",
+    "platform": "React, TypeScript, GCP",
+    "priorityType": "MEDIUM-RISK AI",
+    "processingStatus": "pending",
+    "projectId": 10939,
+    "sector": "Real Estate",
+    "status": "Not yet started",
+    "updatedAt": "2025-10-30T11:36:24.844150",
+    "useFrequency": "Weekly"
+  },
+  {
+    "id": "AI-UC-AST-004-005",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI Workflow Agents",
+    "aiCloudProvider": "AWS",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Rule-Based Automation",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "GPT-4",
+    "businessUsage": "The AI Real Estate Consultancy Platform allows users to submit property requirements, enables admins to manage and analyze these requests, and provides insights with Google Maps integration and market trend analysis.",
+    "category": "AI Inventory",
+    "cloudProvider": "GCP",
+    "createdAt": "2025-10-30T11:36:24.844150",
+    "department": "Real Estate Consultancy",
+    "impact": "MEDIUM",
+    "keyActivity": "The primary activity is to automate the property search and reporting process, integrating market trend analysis and location insights.",
+    "level": 2,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Ratio of correct predictions over total showing prediction reliability",
+        "threshold": 80
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time taken to process data showing responsiveness",
+        "threshold": 70
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Proportion of correct positive predictions showing relevance",
+        "threshold": 75
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Completeness in detecting relevant cases showing coverage",
+        "threshold": 70
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure combining relevance and completeness showing stability",
+        "threshold": 75
+      }
+    ],
+    "modelDescription": "The model automates the process of collecting property requirements from users and fetching relevant property listings using the Bayut API.",
+    "modelInput": "Property Requirements Form, Language Preference, Currency Preference",
+    "modelName": "LN2 Real Estate Consultancy AI",
+    "modelOutput": "PDF Report, Email Notification",
+    "modelPurpose": "To automate the property search process and provide comprehensive reports to real estate consultants.",
+    "modelSummary": "The model streamlines property consultation by automating the search and reporting process, providing valuable insights and location context.",
+    "modelUsage": "The model is used to collect property requirements, fetch matching listings, and generate reports with market trends and location insights.",
+    "overallRisk": "MEDIUM",
+    "platform": "React, TypeScript, GCP",
+    "priorityType": "MEDIUM-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 10939,
+    "sector": "Real Estate",
+    "status": "completed",
+    "updatedAt": "2025-10-30T11:36:24.844150",
+    "useFrequency": "Weekly"
+  },
+  {
+    "id": "AI-UC-AST-004-006",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI Workflow Agents",
+    "aiCloudProvider": "GCP",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Rule-Based Automation",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "GPT-4",
+    "businessUsage": "The AI Real Estate Consultancy Platform allows users to submit property requirements, enables admins to manage and analyze these requests, and provides insights with Google Maps integration and market trend analysis.",
+    "category": "AI Inventory",
+    "cloudProvider": "GCP",
+    "createdAt": "2025-10-30T11:36:24.844150",
+    "department": "Real Estate Consultancy",
+    "impact": "MEDIUM",
+    "keyActivity": "The primary activity is to automate the property search and reporting process, integrating market trend analysis and location insights.",
+    "level": 2,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Ratio of correct predictions over total showing prediction reliability",
+        "threshold": 80
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time taken to process data showing responsiveness",
+        "threshold": 70
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Proportion of correct positive predictions showing relevance",
+        "threshold": 75
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Completeness in detecting relevant cases showing coverage",
+        "threshold": 70
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure combining relevance and completeness showing stability",
+        "threshold": 75
+      }
+    ],
+    "modelDescription": "The model automates the process of collecting property requirements from users and fetching relevant property listings using the Bayut API.",
+    "modelInput": "Property Requirements Form, Language Preference, Currency Preference",
+    "modelName": "LN2 Real Estate Consultancy AI",
+    "modelOutput": "PDF Report, Email Notification",
+    "modelPurpose": "To automate the property search process and provide comprehensive reports to real estate consultants.",
+    "modelSummary": "The model streamlines property consultation by automating the search and reporting process, providing valuable insights and location context.",
+    "modelUsage": "The model is used to collect property requirements, fetch matching listings, and generate reports with market trends and location insights.",
+    "overallRisk": "MEDIUM",
+    "platform": "React, TypeScript, GCP",
+    "priorityType": "MEDIUM-RISK AI",
+    "processingStatus": "completed",
+    "projectId": "10939!",
+    "sector": "Real Estate",
+    "status": "completed",
+    "updatedAt": "2025-10-30T11:36:24.844150",
+    "useFrequency": "Weekly"
+  },
+  {
+    "id": "AI-UC-AST-004-007",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI Workflow Agents",
+    "aiCloudProvider": "GCP",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Rule-Based Automation",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "GPT-4",
+    "businessUsage": "The AI Real Estate Consultancy Platform allows users to submit property requirements, enables admins to manage and analyze these requests, and provides insights with Google Maps integration and market trend analysis.",
+    "category": "AI Inventory",
+    "cloudProvider": "GCP",
+    "createdAt": "2025-10-30T11:36:24.844150",
+    "department": "Real Estate Consultancy",
+    "impact": "MEDIUM",
+    "keyActivity": "The primary activity is to automate the property search and reporting process, integrating market trend analysis and location insights.",
+    "level": 2,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Ratio of correct predictions over total showing prediction reliability",
+        "threshold": 80
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time taken to process data showing responsiveness",
+        "threshold": 70
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Proportion of correct positive predictions showing relevance",
+        "threshold": 75
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Completeness in detecting relevant cases showing coverage",
+        "threshold": 70
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure combining relevance and completeness showing stability",
+        "threshold": 75
+      }
+    ],
+    "modelDescription": "The model automates the process of collecting property requirements from users and fetching relevant property listings using the Bayut API.",
+    "modelInput": "Property Requirements Form, Language Preference, Currency Preference",
+    "modelName": "LN2 Real Estate Consultancy AI",
+    "modelOutput": "PDF Report, Email Notification",
+    "modelPurpose": "To automate the property search process and provide comprehensive reports to real estate consultants.",
+    "modelSummary": "The model streamlines property consultation by automating the search and reporting process, providing valuable insights and location context.",
+    "modelUsage": "The model is used to collect property requirements, fetch matching listings, and generate reports with market trends and location insights.",
+    "overallRisk": "MEDIUM",
+    "platform": "React, TypeScript, GCP",
+    "priorityType": "MEDIUM-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 10939,
+    "sector": "Real Estate",
+    "status": "completed",
+    "updatedAt": "2025-10-30T11:36:24.844150",
+    "useFrequency": "Bi-Weekly"
+  },
+  {
+    "id": "AI-UC-AST-004-008",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI Workflow Agents",
+    "aiCloudProvider": "GCP",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Rule-Based Automation",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "GPT-4",
+    "businessUsage": "The AI Real Estate Consultancy Platform allows users to submit property requirements, enables admins to manage and analyze these requests, and provides insights with Google Maps integration and market trend analysis.",
+    "category": "AI Inventory",
+    "cloudProvider": "GCP",
+    "createdAt": "2025-10-30T11:36:24.844150",
+    "department": "Real Estate Consultancy",
+    "impact": "MEDIUM",
+    "keyActivity": "The primary activity is to automate the property search and reporting process, integrating market trend analysis and location insights.",
+    "level": 2,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Ratio of correct predictions over total showing prediction reliability",
+        "threshold": 80
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time taken to process data showing responsiveness",
+        "threshold": 70
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Proportion of correct positive predictions showing relevance",
+        "threshold": 75
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Completeness in detecting relevant cases showing coverage",
+        "threshold": 70
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure combining relevance and completeness showing stability",
+        "threshold": 75
+      }
+    ],
+    "modelDescription": "The model automates the process of collecting property requirements from users and fetching relevant property listings using the Bayut API.",
+    "modelInput": "Property Requirements Form, Language Preference, Currency Preference",
+    "modelName": "LN2 Real Estate Consultancy AI",
+    "modelOutput": "PDF Report, Email Notification",
+    "modelPurpose": "To automate the property search process and provide comprehensive reports to real estate consultants.",
+    "modelSummary": "The model streamlines property consultation by automating the search and reporting process, providing valuable insights and location context.",
+    "modelUsage": "The model is used to collect property requirements, fetch matching listings, and generate reports with market trends and location insights.",
+    "overallRisk": "MEDIUM",
+    "platform": "React, TypeScript, GCP",
+    "priorityType": "MEDIUM-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 10939,
+    "sector": "Real Estate",
+    "status": "completed",
+    "updatedAt": "2025-10-30T11:36:24.844150",
+    "useFrequency": "Once"
+  },
+  {
+    "id": "AI-UC-AST-004-009",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI Workflow Agents",
+    "aiCloudProvider": "GCP",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Rule-Based Automation",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "GPT-4",
+    "businessUsage": "The AI Real Estate Consultancy Platform allows users to submit property requirements, enables admins to manage and analyze these requests, and provides insights with Google Maps integration and market trend analysis.",
+    "category": "AI Inventory",
+    "cloudProvider": "GCP",
+    "createdAt": "2025-10-30T11:36:24.844150",
+    "department": "Real Estate Consultancy",
+    "impact": "MEDIUM",
+    "keyActivity": "The primary activity is to automate the property search and reporting process, integrating market trend analysis and location insights.",
+    "level": 2,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Ratio of correct predictions over total showing prediction reliability",
+        "threshold": 80
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time taken to process data showing responsiveness",
+        "threshold": 70
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Proportion of correct positive predictions showing relevance",
+        "threshold": 75
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Completeness in detecting relevant cases showing coverage",
+        "threshold": 70
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure combining relevance and completeness showing stability",
+        "threshold": 75
+      }
+    ],
+    "modelDescription": "The model automates the process of collecting property requirements from users and fetching relevant property listings using the Bayut API.",
+    "modelInput": "Property Requirements Form, Language Preference, Currency Preference",
+    "modelName": "LN2 Real Estate Consultancy AI",
+    "modelOutput": "PDF Report, Email Notification",
+    "modelPurpose": "To automate the property search process and provide comprehensive reports to real estate consultants.",
+    "modelSummary": "The model streamlines property consultation by automating the search and reporting process, providing valuable insights and location context.",
+    "modelUsage": "The model is used to collect property requirements, fetch matching listings, and generate reports with market trends and location insights.",
+    "overallRisk": "MEDIUM",
+    "platform": "React, TypeScript, GCP",
+    "priorityType": "MEDIUM-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 10939,
+    "sector": "Real Estate",
+    "status": "in_progress",
+    "updatedAt": "2025-10-30T11:36:24.844150",
+    "useFrequency": "Weekly"
+  },
+  {
+    "id": "AI-UC-AST-004-010",
+    "aiApproach": "Custom AI Stack",
+    "aiCategory": "AI Workflow Agents",
+    "aiCloudProvider": "GCP",
+    "aiFeatureGeneratingStatus": "Completed",
+    "AIMethodologyType": "Rule-Based Automation",
+    "aiProgressGeneratingStatus": "Completed",
+    "baseModelName": "GPT-4",
+    "businessUsage": "The AI Real Estate Consultancy Platform allows users to submit property requirements, enables admins to manage and analyze these requests, and provides insights with Google Maps integration and market trend analysis.",
+    "category": "AI Inventory",
+    "cloudProvider": "GCP",
+    "createdAt": "2025-10-30T11:36:24.844150",
+    "department": "Real Estate Consultancy",
+    "impact": "MEDIUM",
+    "keyActivity": "The primary activity is to automate the property search and reporting process, integrating market trend analysis and location insights.",
+    "level": 2,
+    "metrics": [
+      {
+        "metricName": "Accuracy",
+        "metricDescription": "Ratio of correct predictions over total showing prediction reliability",
+        "threshold": 80
+      },
+      {
+        "metricName": "Latency",
+        "metricDescription": "Time taken to process data showing responsiveness",
+        "threshold": 70
+      },
+      {
+        "metricName": "Precision",
+        "metricDescription": "Proportion of correct positive predictions showing relevance",
+        "threshold": 75
+      },
+      {
+        "metricName": "Recall",
+        "metricDescription": "Completeness in detecting relevant cases showing coverage",
+        "threshold": 70
+      },
+      {
+        "metricName": "F1-Score",
+        "metricDescription": "Balanced measure combining relevance and completeness showing stability",
+        "threshold": 75
+      }
+    ],
+    "modelDescription": "The model automates the process of collecting property requirements from users and fetching relevant property listings using the Bayut API.",
+    "modelInput": "Property Requirements Form, Language Preference, Currency Preference",
+    "modelName": "LN2 Real Estate Consultancy AI",
+    "modelOutput": "PDF Report, Email Notification",
+    "modelPurpose": "To automate the property search process and provide comprehensive reports to real estate consultants.",
+    "modelSummary": "The model streamlines property consultation by automating the search and reporting process, providing valuable insights and location context.",
+    "modelUsage": "The model is used to collect property requirements, fetch matching listings, and generate reports with market trends and location insights.",
+    "overallRisk": "MEDIUM",
+    "platform": "React, TypeScript, GCP",
+    "priorityType": "MEDIUM-RISK AI",
+    "processingStatus": "completed",
+    "projectId": 10939,
+    "sector": "Real Estate",
+    "status": "completed",
+    "updatedAt": "2025-10-30T11:36:24.844150",
+    "useFrequency": "Daily"
+  }
+]
