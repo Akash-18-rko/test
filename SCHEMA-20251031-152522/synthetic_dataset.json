@@ -1,0 +1,181 @@
+[
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-EC-001",
+      "errorCategory": "Request Validation Issues",
+      "errorType": "Missing required field",
+      "affectedField": "modelInput",
+      "inputData": {
+        "propertyRequirements": null,
+        "languagePreference": "English",
+        "currencyPreference": "USD"
+      },
+      "expectedResult": "Validation error indicating missing property requirements.",
+      "actualResult": "Validation error message: 'Property requirements cannot be null.'",
+      "riskLevel": "HIGH"
+    }
+  },
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-EC-002",
+      "errorCategory": "Request Validation Issues",
+      "errorType": "Invalid budget format",
+      "affectedField": "budget",
+      "inputData": {
+        "propertyRequirements": "Apartment",
+        "budget": "negative",
+        "languagePreference": "English",
+        "currencyPreference": "USD"
+      },
+      "expectedResult": "Validation error indicating an invalid budget.",
+      "actualResult": "Validation error message: 'Invalid budget format, must be a number.'",
+      "riskLevel": "MEDIUM"
+    }
+  },
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-EC-003",
+      "errorCategory": "Request Validation Issues",
+      "errorType": "Nonexistent location",
+      "affectedField": "location",
+      "inputData": {
+        "propertyRequirements": "Villa",
+        "location": "Atlantis",
+        "languagePreference": "English",
+        "currencyPreference": "USD"
+      },
+      "expectedResult": "Validation error indicating an invalid location.",
+      "actualResult": "Validation error message: 'Location not found.'",
+      "riskLevel": "MEDIUM"
+    }
+  },
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-EC-004",
+      "errorCategory": "Request Validation Issues",
+      "errorType": "Conflicting requirements",
+      "affectedField": "propertyType",
+      "inputData": {
+        "propertyType": [
+          "Apartment",
+          "Villa"
+        ],
+        "bedrooms": -1,
+        "bathrooms": 5,
+        "languagePreference": "English",
+        "currencyPreference": "USD"
+      },
+      "expectedResult": "Validation error indicating conflicting requirements.",
+      "actualResult": "Validation error message: 'Invalid number of bedrooms.'",
+      "riskLevel": "HIGH"
+    }
+  },
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-EC-005",
+      "errorCategory": "Processing Errors",
+      "errorType": "API timeout error",
+      "affectedField": "Bayut API",
+      "inputData": {
+        "propertyRequirements": "Apartment",
+        "location": "Dubai",
+        "budget": 500000,
+        "languagePreference": "English",
+        "currencyPreference": "USD"
+      },
+      "expectedResult": "Error handling for API timeout.",
+      "actualResult": "TimeoutException: Bayut API did not respond within 5 seconds.",
+      "riskLevel": "HIGH"
+    }
+  },
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-EC-006",
+      "errorCategory": "Processing Errors",
+      "errorType": "Rate limit exceeded",
+      "affectedField": "Bayut API",
+      "inputData": {
+        "propertyRequirements": "Villa",
+        "location": "Abu Dhabi",
+        "budget": 1000000,
+        "languagePreference": "English",
+        "currencyPreference": "USD"
+      },
+      "expectedResult": "Error handling for rate limit exceeded.",
+      "actualResult": "RateLimitException: API rate limit exceeded. Please wait.",
+      "riskLevel": "MEDIUM"
+    }
+  },
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-EC-007",
+      "errorCategory": "Processing Errors",
+      "errorType": "Data retrieval failures",
+      "affectedField": "Bayut API",
+      "inputData": {
+        "propertyRequirements": "Townhouse",
+        "location": "Sharjah",
+        "budget": 750000,
+        "languagePreference": "English",
+        "currencyPreference": "USD"
+      },
+      "expectedResult": "Error handling for data retrieval failures.",
+      "actualResult": "DataRetrievalException: Failed to retrieve data for the specified criteria.",
+      "riskLevel": "MEDIUM"
+    }
+  },
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-EC-008",
+      "errorCategory": "Analysis Problems",
+      "errorType": "Insufficient market data",
+      "affectedField": "Market Trend Analysis",
+      "inputData": {
+        "propertyRequirements": "Land",
+        "location": "Umm Al Quwain",
+        "budget": 100000,
+        "languagePreference": "English",
+        "currencyPreference": "USD"
+      },
+      "expectedResult": "Handling for insufficient market data.",
+      "actualResult": "Warning: Insufficient market data available for Umm Al Quwain for Land. Providing generic trends.",
+      "riskLevel": "LOW"
+    }
+  },
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-EC-009",
+      "errorCategory": "Analysis Problems",
+      "errorType": "Conflicting trends",
+      "affectedField": "Market Trend Analysis",
+      "inputData": {
+        "propertyRequirements": "Apartment",
+        "location": "Dubai Marina",
+        "budget": 1500000,
+        "languagePreference": "English",
+        "currencyPreference": "USD"
+      },
+      "expectedResult": "Proper handling of conflicting trends.",
+      "actualResult": "Warning: Conflicting market trends observed in Dubai Marina. Price increase predicted but sales volume decreased.",
+      "riskLevel": "MEDIUM"
+    }
+  },
+  {
+    "assessmentResult": {
+      "id": "AI-UC-AST-004-EC-010",
+      "errorCategory": "System Metrics",
+      "errorType": "Degraded accuracy",
+      "affectedField": "Accuracy",
+      "inputData": {
+        "propertyRequirements": "Apartment",
+        "location": "Dubai",
+        "budget": 500000,
+        "languagePreference": "English",
+        "currencyPreference": "USD"
+      },
+      "expectedResult": "Degraded Accuracy Score returned",
+      "actualResult": "Accuracy is at 60%, below the threshold.",
+      "riskLevel": "HIGH"
+    }
+  }
+]
