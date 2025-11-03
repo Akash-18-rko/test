@@ -1,0 +1,190 @@
+[
+  {
+    "id": "AI-UC-AST-004-EC-001",
+    "assessmentResult": {
+      "modelOutput": "Partial report generated. Some property details missing due to incomplete API response.",
+      "error_data": {
+        "missing_fields": [
+          "Property Address",
+          "Price"
+        ]
+      },
+      "errorCategory": "input_problems",
+      "errorDescription": "Simulated input_problems scenario",
+      "processingStatus": "error",
+      "Input Request": {
+        "error": "Missing required fields"
+      }
+    },
+    "error_category": "data_quality",
+    "error_description": "Bayut API returned incomplete data for properties matching the criteria. Address and price fields are missing.",
+    "processingStatus": "error"
+  },
+  {
+    "id": "AI-UC-AST-004-EC-002",
+    "assessmentResult": {
+      "metrics": [
+        {
+          "metricName": "Latency",
+          "value": 150,
+          "threshold_exceeded": true
+        }
+      ],
+      "errorCategory": "processing_errors",
+      "errorDescription": "Simulated processing_errors scenario",
+      "processingStatus": "error",
+      "Analysis Steps": [
+        "Error: API timeout"
+      ]
+    },
+    "error_category": "metric_anomalies",
+    "error_description": "The latency metric exceeded the threshold of 70, indicating slow processing time. This could be due to network issues or API overload.",
+    "processingStatus": "error"
+  },
+  {
+    "id": "AI-UC-AST-004-EC-003",
+    "assessmentResult": {
+      "modelOutput": "Error: Invalid currency code provided. Please specify a valid currency (e.g., USD, EUR).",
+      "error_data": {
+        "invalid_currency": "XYZ"
+      },
+      "errorCategory": "data_quality",
+      "errorDescription": "Simulated data_quality scenario",
+      "processingStatus": "error",
+      "Generated Insights": {
+        "error": "Incomplete data"
+      }
+    },
+    "error_category": "input_problems",
+    "error_description": "The user entered an invalid currency code (XYZ) in the form, which the system could not process.",
+    "processingStatus": "error"
+  },
+  {
+    "id": "AI-UC-AST-004-EC-004",
+    "assessmentResult": {
+      "modelOutput": "Service unavailable. Unable to connect to Bayut API.",
+      "error_data": {
+        "api_error_code": 503
+      },
+      "errorCategory": "metric_anomalies",
+      "errorDescription": "Simulated metric_anomalies scenario",
+      "processingStatus": "error",
+      "Performance Data": {
+        "accuracy": 150
+      }
+    },
+    "error_category": "processing_errors",
+    "error_description": "The Bayut API returned a 503 Service Unavailable error, indicating a temporary system failure or maintenance.",
+    "processingStatus": "error"
+  },
+  {
+    "id": "AI-UC-AST-004-EC-005",
+    "assessmentResult": {
+      "modelOutput": "Partial Report Generated. Could not process location insights.",
+      "error_data": {
+        "location_insights_failure": "Google Maps API returned an error"
+      },
+      "errorCategory": "system_errors",
+      "errorDescription": "Simulated system_errors scenario",
+      "processingStatus": "error",
+      "system_error": "Internal processing failure"
+    },
+    "error_category": "processing_errors",
+    "error_description": "The Google Maps API failed to provide location insights. This could be due to a connectivity issue or API limit exceeded.",
+    "processingStatus": "error"
+  },
+  {
+    "id": "AI-UC-AST-004-EC-006",
+    "assessmentResult": {
+      "modelOutput": "The system encountered an unexpected error. Please try again.",
+      "error_data": {
+        "system_error_code": "E001"
+      },
+      "errorCategory": "partial_results",
+      "errorDescription": "Simulated partial_results scenario",
+      "processingStatus": "error",
+      "completeness": 80
+    },
+    "error_category": "system_errors",
+    "error_description": "A generic system error occurred, likely due to a software bug or unexpected condition. Error code E001 was logged.",
+    "processingStatus": "error"
+  },
+  {
+    "id": "AI-UC-AST-004-EC-007",
+    "assessmentResult": {
+      "modelOutput": "Report Generated. Market trend data not available for the requested area.",
+      "error_data": {
+        "missing_market_trends": "No data found for the specified location"
+      },
+      "errorCategory": "input_problems",
+      "errorDescription": "Simulated input_problems scenario",
+      "processingStatus": "error",
+      "Input Request": {
+        "error": "Missing required fields"
+      }
+    },
+    "error_category": "data_quality",
+    "error_description": "Market trend data could not be retrieved because the location provided was not supported by the data source.",
+    "processingStatus": "error"
+  },
+  {
+    "id": "AI-UC-AST-004-EC-008",
+    "assessmentResult": {
+      "metrics": [
+        {
+          "metricName": "Accuracy",
+          "value": 60,
+          "threshold_exceeded": true
+        }
+      ],
+      "errorCategory": "processing_errors",
+      "errorDescription": "Simulated processing_errors scenario",
+      "processingStatus": "error",
+      "Analysis Steps": [
+        "Error: API timeout"
+      ]
+    },
+    "error_category": "metric_anomalies",
+    "error_description": "Accuracy dropped below the threshold of 80 due to inaccurate property matches.",
+    "processingStatus": "error"
+  },
+  {
+    "id": "AI-UC-AST-004-EC-009",
+    "assessmentResult": {
+      "modelOutput": "Insufficient information provided. Please fill out the property type and budget.",
+      "error_data": {
+        "missing_fields": [
+          "Property Type",
+          "Budget"
+        ]
+      },
+      "errorCategory": "data_quality",
+      "errorDescription": "Simulated data_quality scenario",
+      "processingStatus": "error",
+      "Generated Insights": {
+        "error": "Incomplete data"
+      }
+    },
+    "error_category": "input_problems",
+    "error_description": "The form processing failed because the user did not provide the required property type and budget.",
+    "processingStatus": "error"
+  },
+  {
+    "id": "AI-UC-AST-004-EC-010",
+    "assessmentResult": {
+      "modelOutput": "Email notification sent successfully, but report generation failed.",
+      "error_data": {
+        "report_generation_failure": "Internal error generating the PDF"
+      },
+      "errorCategory": "metric_anomalies",
+      "errorDescription": "Simulated metric_anomalies scenario",
+      "processingStatus": "error",
+      "Performance Data": {
+        "accuracy": 150
+      }
+    },
+    "error_category": "partial_results",
+    "error_description": "The system successfully sent the email notification, but failed to generate the PDF report due to an internal error.",
+    "processingStatus": "error"
+  }
+]
