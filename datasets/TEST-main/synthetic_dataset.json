@@ -1,0 +1,106 @@
+[
+  {
+    "assessmentResult": {
+      "errorCategory": "InputValidation",
+      "errorDescription": "Missing required fields",
+      "processingStatus": {
+        "status": "failed",
+        "errors": [
+          {
+            "code": "IV001",
+            "message": "Transaction amount is missing."
+          },
+          {
+            "code": "IV002",
+            "message": "User profile details are missing."
+          }
+        ]
+      },
+      "partialData": {
+        "transactionDetails": {
+          "timestamp": "2022-03-01T09:00:00",
+          "location": "New York",
+          "deviceInformation": null
+        },
+        "userProfile": null
+      }
+    }
+  },
+  {
+    "assessmentResult": {
+      "errorCategory": "DataQuality",
+      "errorDescription": "Invalid data formats",
+      "processingStatus": {
+        "status": "error",
+        "errors": [
+          {
+            "code": "DQ001",
+            "message": "Invalid timestamp format."
+          },
+          {
+            "code": "DQ002",
+            "message": "Risk score is not a valid number."
+          }
+        ]
+      },
+      "partialData": {
+        "transactionDetails": {
+          "amount": 500,
+          "timestamp": "01-03-2022",
+          "location": "New York",
+          "deviceInformation": {
+            "deviceType": "Mobile",
+            "OS": "iOS"
+          }
+        },
+        "userProfile": {
+          "accountHistory": {
+            "previousTransactions": 10,
+            "accountAge": 2
+          },
+          "riskScore": "High",
+          "behavioralPatterns": [
+            "High spending"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "assessmentResult": {
+      "errorCategory": "SystemError",
+      "errorDescription": "Processing failures",
+      "processingStatus": {
+        "status": "partial",
+        "errors": [
+          {
+            "code": "SE001",
+            "message": "System processing failure while computing fraud probability."
+          }
+        ]
+      },
+      "partialData": {
+        "transactionDetails": {
+          "amount": 10000,
+          "timestamp": "2022-03-01T09:00:00",
+          "location": "New York",
+          "deviceInformation": {
+            "deviceType": "Mobile",
+            "OS": "iOS"
+          }
+        },
+        "userProfile": {
+          "accountHistory": {
+            "previousTransactions": 100,
+            "accountAge": 5
+          },
+          "riskScore": 90,
+          "behavioralPatterns": [
+            "High spending",
+            "Irregular transaction time"
+          ]
+        }
+      }
+    }
+  }
+]
