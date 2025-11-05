@@ -1,0 +1,65 @@
+[
+  {
+    "user_id": 101,
+    "full_name": "Alex Smith",
+    "country_of_residence": "Canada",
+    "contact_number": "+11234567890",
+    "email": "alex.smith@example.com",
+    "role": "Customer",
+    "property_search_requests": {
+      "budget": 500000,
+      "type": "Condo",
+      "location": "Toronto",
+      "amenities": [
+        "Parking",
+        "Gym",
+        "Pool"
+      ]
+    },
+    "properties": [
+      {
+        "property_id": 4056,
+        "price": 490000,
+        "size": "1200 sqft",
+        "features": [
+          "2 bedrooms",
+          "2 bathrooms",
+          "Balcony"
+        ],
+        "address": "123 Maple Street, Toronto, ON, Canada",
+        "google_maps_link": "https://maps.google.com/?q=123+Maple+Street,+Toronto"
+      },
+      {
+        "property_id": 4057,
+        "price": 475000,
+        "size": "1150 sqft",
+        "features": [
+          "2 bedrooms",
+          "1 bathroom",
+          "Pool access"
+        ],
+        "address": "456 Pine Street, Toronto, ON, Canada",
+        "google_maps_link": "https://maps.google.com/?q=456+Pine+Street,+Toronto"
+      }
+    ],
+    "market_trend_analysis": {
+      "data_visualization": "URL_to_Bar_Chart_Image.jpg",
+      "trends_noted": [
+        "Steady increase in condo prices in Toronto",
+        "High demand for amenities like gym and pool"
+      ]
+    },
+    "reports": {
+      "report_id": 97531,
+      "content_items": [
+        "Top 5 properties",
+        "Market trend analysis",
+        "Google Maps snapshots"
+      ],
+      "delivery_details": {
+        "recipient_email": "admin@example.com",
+        "language": "English"
+      }
+    }
+  }
+]
