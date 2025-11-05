@@ -2,93 +2,112 @@
   {
     "assessmentResult": {
       "Input Request": {
-        "transactionDetails": {
-          "amount": 4500.0,
-          "timestamp": "2022-03-25T14:30:00Z",
+        "TransactionDetails": {
+          "amount": 1000000,
+          "timestamp": "2022-01-15T10:00:00Z",
           "location": "New York, USA",
-          "deviceInfo": "iPhone 11, iOS 15.2"
+          "deviceInfo": {
+            "deviceType": "Desktop",
+            "browser": "Chrome",
+            "ipAddress": "192.168.1.1"
+          }
         },
-        "userProfileData": {
-          "accountHistory": "Account active for 2 years with regular transactions",
-          "riskScore": 2,
-          "behavioralPatterns": "Typically transacts during business hours, primarily in New York"
+        "UserProfile": {
+          "accountHistory": {
+            "numberTransactions": 10,
+            "averageTransactionAmount": 500000
+          },
+          "riskScore": 0.1,
+          "behavioralPatterns": [
+            "Regular",
+            "Weekday"
+          ]
         }
       },
       "Analysis Steps": [
-        "Received transaction and user profile data",
-        "Checked the transaction amount and location against user's typical behavior",
-        "Computed risk score based on transaction details and user's account history",
-        "Generated fraud probability score",
-        "Assigned risk level and recommended action based on fraud probability score"
+        "Ingest transaction and user profile information",
+        "Apply preprocessing and feature extraction",
+        "Pass features through trained AI model",
+        "Generate fraud probability, risk level, and explanation factors",
+        "Recommend action based on output"
       ],
       "Generated Insights": {
-        "fraudProbability": 0.02,
-        "riskLevel": "Low",
-        "actionRecommendation": "Approve transaction",
-        "explanationFactors": [
-          "Transaction amount within typical range",
-          "Transaction location matches user's typical behavior"
+        "FraudProbability": 0.05,
+        "RiskLevel": "LOW",
+        "ExplanationFactors": [
+          "The transaction amount is within the user's average transaction range",
+          "The transaction is from a known device and location",
+          "The user's behavior pattern is regular"
         ]
       },
       "Recommendations": [
         {
-          "action": "Approve the transaction",
-          "impact": "Maintain a smooth customer experience",
+          "action": "Approve transaction",
+          "impact": "Ensures smooth business operations",
           "priority": "High"
         }
       ],
       "Performance Data": {
         "accuracy": "95%",
-        "latency": "50ms",
-        "falsePositiveRate": "2%",
-        "modelConfidence": "90%"
+        "latency": "80ms",
+        "false positive rate": "1%",
+        "model confidence": "91%"
       }
     }
   },
   {
     "assessmentResult": {
       "Input Request": {
-        "transactionDetails": {
-          "amount": 15000.0,
-          "timestamp": "2022-03-25T02:00:00Z",
-          "location": "Moscow, Russia",
-          "deviceInfo": "Samsung Galaxy S20, Android 11"
+        "TransactionDetails": {
+          "amount": 10000000,
+          "timestamp": "2022-01-15T03:00:00Z",
+          "location": "Dubai, UAE",
+          "deviceInfo": {
+            "deviceType": "Mobile",
+            "browser": "Safari",
+            "ipAddress": "172.16.254.1"
+          }
         },
-        "userProfileData": {
-          "accountHistory": "Account active for 6 months, irregular transaction patterns",
-          "riskScore": 7,
-          "behavioralPatterns": "Transactions typically below $1000, primarily within USA"
+        "UserProfile": {
+          "accountHistory": {
+            "numberTransactions": 5,
+            "averageTransactionAmount": 500000
+          },
+          "riskScore": 0.7,
+          "behavioralPatterns": [
+            "Irregular",
+            "Weekend"
+          ]
         }
       },
       "Analysis Steps": [
-        "Received transaction and user profile data",
-        "Checked the transaction amount, location, and time against user's typical behavior",
-        "Computed risk score based on transaction details and user's account history",
-        "Generated fraud probability score",
-        "Assigned risk level and recommended action based on fraud probability score"
+        "Ingest transaction and user profile information",
+        "Apply preprocessing and feature extraction",
+        "Pass features through trained AI model",
+        "Generate fraud probability, risk level, and explanation factors",
+        "Recommend action based on output"
       ],
       "Generated Insights": {
-        "fraudProbability": 0.85,
-        "riskLevel": "High",
-        "actionRecommendation": "Block transaction",
-        "explanationFactors": [
-          "Transaction amount significantly higher than typical",
-          "Transaction location outside user's typical transaction locations",
-          "Transaction time outside user's typical transaction hours"
+        "FraudProbability": 0.85,
+        "RiskLevel": "HIGH",
+        "ExplanationFactors": [
+          "The transaction amount is significantly higher than the user's average transaction amount",
+          "The transaction is from an unknown device and location",
+          "The user's behavior pattern is irregular"
         ]
       },
       "Recommendations": [
         {
-          "action": "Block the transaction and notify customer service",
-          "impact": "Prevent potential fraudulent transaction",
-          "priority": "Critical"
+          "action": "Decline transaction",
+          "impact": "Prevents potential fraudulent activity",
+          "priority": "High"
         }
       ],
       "Performance Data": {
-        "accuracy": "95%",
-        "latency": "80ms",
-        "falsePositiveRate": "2%",
-        "modelConfidence": "90%"
+        "accuracy": "96%",
+        "latency": "90ms",
+        "false positive rate": "1.5%",
+        "model confidence": "92%"
       }
     }
   }
