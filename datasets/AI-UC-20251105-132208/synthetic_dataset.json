@@ -1,0 +1,53 @@
+[
+  {
+    "modelName": "RealEstateAdvisor",
+    "sowDocumentKey": null,
+    "propertyRequirements": {
+      "budget": 500000,
+      "propertyType": "Apartment",
+      "locationPreferences": "Downtown",
+      "amenities": [
+        "Pool",
+        "Gym"
+      ]
+    },
+    "Bayut API": {
+      "price": 490000,
+      "size": 1500,
+      "location": "Downtown",
+      "features": [
+        "Balcony",
+        "2 Bathrooms",
+        "Open Kitchen"
+      ]
+    },
+    "Google Maps Integration": {
+      "coordinates": {
+        "latitude": 25.2048,
+        "longitude": 55.2708
+      },
+      "mapVisual": "Not available"
+    },
+    "Market Analysis": null,
+    "Reports": {
+      "topProperties": [
+        {
+          "price": 490000,
+          "location": "Downtown",
+          "size": 1500
+        },
+        {
+          "price": 505000,
+          "location": "Downtown",
+          "size": 1600
+        }
+      ],
+      "marketTrends": "Minimal data",
+      "visualData": "Not included"
+    },
+    "email": {
+      "customer": "example@customer.com",
+      "admin": null
+    }
+  }
+]
