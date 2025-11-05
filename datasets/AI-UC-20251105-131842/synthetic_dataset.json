@@ -1,0 +1,52 @@
+[
+  {
+    "User": {
+      "Type": "Customer",
+      "Preferences": {
+        "Budget": 500000,
+        "Type": "Apartment",
+        "Location": "Dubai",
+        "Amenities": [
+          "Pool",
+          "Gym"
+        ],
+        "Language": "English",
+        "Currency": "AED"
+      }
+    },
+    "PropertyListings": [
+      {
+        "Price": 480000,
+        "Size": 1200,
+        "Location": "Dubai",
+        "Features": [
+          "Balcony",
+          "Covered Parking"
+        ]
+      },
+      {
+        "Price": 510000,
+        "Size": 1300,
+        "Location": "Dubai",
+        "Features": [
+          "Pool"
+        ]
+      }
+    ],
+    "Reports": {
+      "TopProperties": [
+        {
+          "Price": 480000,
+          "Size": 1200,
+          "Location": "Dubai"
+        }
+      ],
+      "MarketTrendAnalysis": "PDF Link Placeholder",
+      "GoogleMapsSnapshot": "Image URL Placeholder"
+    },
+    "Admin": {
+      "PreferredLanguage": "Arabic",
+      "Email": ""
+    }
+  }
+]
