@@ -1,0 +1,63 @@
+[
+  {
+    "user_id": 234,
+    "full_name": "Alice Johnson",
+    "country_of_residence": "UK",
+    "contact_number": "+441234567890",
+    "email": "alice.j@example.com",
+    "property_search_request": {
+      "budget": 300000,
+      "property_type": "apartment",
+      "location": "London",
+      "amenities": [
+        "gym",
+        "pool",
+        "parking"
+      ]
+    },
+    "property_listings": [
+      {
+        "listing_id": "UK12345",
+        "price": 295000,
+        "size": "85 sqm",
+        "location": "Central London",
+        "features": [
+          "2 bedrooms",
+          "2 bathrooms",
+          "near metro"
+        ]
+      },
+      {
+        "listing_id": "UK12346",
+        "price": 310000,
+        "size": "90 sqm",
+        "location": "East London",
+        "features": [
+          "1 bedroom",
+          "1 bathroom",
+          "balcony",
+          "pets allowed"
+        ]
+      }
+    ],
+    "report": {
+      "report_id": "R123456",
+      "date_generated": "2023-12-01",
+      "market_trends": "Increasing demand in urban areas, rise in remote work influencing suburb prices",
+      "selected_properties": [
+        "UK12345",
+        "UK12346"
+      ]
+    },
+    "admin_interaction": {
+      "admin_id": "A789",
+      "received_reports": [
+        "R123456"
+      ],
+      "actions_taken": [
+        "Reviewed",
+        "Follow-up scheduled"
+      ]
+    }
+  }
+]
