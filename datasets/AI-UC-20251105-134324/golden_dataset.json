@@ -1,0 +1,140 @@
+[
+  {
+    "ClaimRecord": {
+      "patient_info": {
+        "name": "Alice Johnson",
+        "age": 34,
+        "medical_history": [
+          {
+            "condition": "Asthma",
+            "treatment_dates": [
+              "2022-07-15",
+              "2022-08-01"
+            ]
+          }
+        ]
+      },
+      "policy_number": "POLICY123456",
+      "invoice_lines": [
+        {
+          "item": "Consultation",
+          "amount": 150.0,
+          "date": "2023-11-22"
+        },
+        {
+          "item": "X-Ray",
+          "amount": 75.0,
+          "date": "2023-11-22"
+        }
+      ],
+      "document_types": [
+        "Medical Report",
+        "Billing Statement"
+      ],
+      "confidence_scores": {
+        "OCR": 98.5
+      }
+    },
+    "ValidationReport": {
+      "valid": true,
+      "errors": [],
+      "compliance_checks": {
+        "PII_masked": true,
+        "policy_valid": true
+      }
+    },
+    "PayoutInstruction": {
+      "amount": 225.0,
+      "method": "Bank Transfer",
+      "bank_details": {
+        "account_number": "987654321",
+        "bank_code": "001"
+      }
+    },
+    "AuditLog": {
+      "timestamps": [
+        "2023-11-23T10:00:00Z",
+        "2023-11-23T10:05:00Z"
+      ],
+      "actions": [
+        "Data parsed",
+        "Validation completed",
+        "Payout initiated"
+      ],
+      "agent_ids": [
+        "Ingest-OCR-Agent",
+        "Claim-Validation-Agent",
+        "Settlement-Agent"
+      ]
+    }
+  },
+  {
+    "ClaimRecord": {
+      "patient_info": {
+        "name": "Bob Smith",
+        "age": 29,
+        "medical_history": [
+          {
+            "condition": "Diabetes",
+            "treatment_dates": [
+              "2023-10-10",
+              "2023-11-01"
+            ]
+          }
+        ]
+      },
+      "policy_number": "POLICY654321",
+      "invoice_lines": [
+        {
+          "item": "Blood Tests",
+          "amount": 200.0,
+          "date": "2023-11-20"
+        },
+        {
+          "item": "Specialist Consultation",
+          "amount": 300.0,
+          "date": "2023-11-20"
+        }
+      ],
+      "document_types": [
+        "Lab Report",
+        "Billing Statement"
+      ],
+      "confidence_scores": {
+        "OCR": 99.2
+      }
+    },
+    "ValidationReport": {
+      "valid": true,
+      "errors": [],
+      "compliance_checks": {
+        "PII_masked": true,
+        "policy_valid": true
+      }
+    },
+    "PayoutInstruction": {
+      "amount": 500.0,
+      "method": "Bank Transfer",
+      "bank_details": {
+        "account_number": "123456789",
+        "bank_code": "002"
+      }
+    },
+    "AuditLog": {
+      "timestamps": [
+        "2023-11-22T09:50:00Z",
+        "2023-11-22T09:55:00Z"
+      ],
+      "actions": [
+        "Data parsed",
+        "Validation completed",
+        "Payout initiated"
+      ],
+      "agent_ids": [
+        "Ingest-OCR-Agent",
+        "Claim-Validation-Agent",
+        "Settlement-Agent"
+      ]
+    }
+  }
+]
