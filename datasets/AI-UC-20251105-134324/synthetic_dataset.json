@@ -1,0 +1,118 @@
+[
+  {
+    "raw_claim_record": {
+      "patient_details": "John Doe",
+      "policy_number": "POL123456789",
+      "invoice_lines": [
+        {
+          "item": "X-ray",
+          "cost": 200
+        },
+        {
+          "item": "Blood Test",
+          "cost": 100
+        }
+      ],
+      "dates": "2023-11-15",
+      "document_types": "Medical Invoice",
+      "confidence_scores": 0.85
+    },
+    "masked_claim_record": {
+      "patient_details": "REDACTED",
+      "policy_number": "POL123456789",
+      "invoice_lines": [
+        {
+          "item": "X-ray",
+          "cost": 200
+        },
+        {
+          "item": "Blood Test"
+        }
+      ],
+      "dates": "2023-11-15",
+      "document_types": "Medical Invoice"
+    },
+    "validation_report": {
+      "data_quality": "High",
+      "compliance_verified": true
+    },
+    "processed_claim_record": {
+      "patient_details": "REDACTED",
+      "policy_number": "POL123456789",
+      "dates": "2023-11-15",
+      "total_claim_amount": 300
+    },
+    "payout_instruction": {
+      "payee": "Healthcare Provider A",
+      "amount": 300
+    },
+    "audit_log": [
+      {
+        "action": "Ingested",
+        "timestamp": "2023-11-16T08:30:00Z"
+      },
+      {
+        "action": "PII Masked",
+        "timestamp": "2023-11-16T09:00:00Z"
+      },
+      {
+        "action": "Data Validated",
+        "timestamp": "2023-11-16T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "raw_claim_record": {
+      "patient_details": "Jane Smith",
+      "policy_number": "POL987654321",
+      "invoice_lines": [
+        {
+          "item": "MRI",
+          "cost": 1200
+        },
+        {
+          "item": "Consultation",
+          "cost": 300
+        }
+      ],
+      "dates": "2023-11-14",
+      "document_types": "Medical Bill"
+    },
+    "masked_claim_record": {
+      "patient_details": "REDACTED",
+      "policy_number": "POL987654321",
+      "invoice_lines": [
+        {
+          "item": "MRI",
+          "cost": 1200
+        }
+      ],
+      "dates": "2023-11-14",
+      "document_types": "Medical Bill",
+      "confidence_scores": 0.9
+    },
+    "validation_report": {
+      "data_quality": "Moderate",
+      "compliance_verified": false
+    },
+    "processed_claim_record": {
+      "patient_details": "REDACTED",
+      "policy_number": "POL987654321",
+      "dates": "2023-11-14"
+    },
+    "payout_instruction": {
+      "payee": "Healthcare Provider B",
+      "amount": 1200
+    },
+    "audit_log": [
+      {
+        "action": "Ingested",
+        "timestamp": "2023-11-15T08:30:00Z"
+      },
+      {
+        "action": "PII Masked",
+        "timestamp": "2023-11-15T09:00:00Z"
+      }
+    ]
+  }
+]
