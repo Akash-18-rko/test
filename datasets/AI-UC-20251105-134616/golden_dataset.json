@@ -1,0 +1,252 @@
+[
+  {
+    "raw_claim_record": {
+      "patient_details": {
+        "name": "Jane Doe",
+        "date_of_birth": "1985-07-16",
+        "medical_history": [
+          {
+            "condition": "Asthma",
+            "treatment_date": "2022-06-15",
+            "provider": "City Medical Center"
+          }
+        ]
+      },
+      "policy_number": "PH123456789",
+      "invoice_lines": [
+        {
+          "service_id": "SV1001",
+          "description": "Routine blood tests",
+          "cost": 200
+        },
+        {
+          "service_id": "SV2002",
+          "description": "Chest X-ray",
+          "cost": 150
+        }
+      ],
+      "dates": {
+        "service_date": "2023-11-01",
+        "submission_date": "2023-11-15"
+      },
+      "document_types": [
+        "Medical Report",
+        "Invoice"
+      ],
+      "confidence_scores": {
+        "overall": 98,
+        "details": {
+          "name": 99,
+          "date_of_birth": 100,
+          "medical_history": 95,
+          "invoice": 97
+        }
+      }
+    },
+    "masked_claim_record": {
+      "patient_details": {
+        "name": "CONFIDENTIAL",
+        "date_of_birth": "CONFIDENTIAL",
+        "medical_history": [
+          {
+            "condition": "CONFIDENTIAL",
+            "treatment_date": "2022-06-15",
+            "provider": "CONFIDENTIAL"
+          }
+        ]
+      },
+      "policy_number": "CONFIDENTIAL",
+      "invoice_lines": [
+        {
+          "service_id": "SV1001",
+          "description": "Routine blood tests",
+          "cost": 200
+        },
+        {
+          "service_id": "SV2002",
+          "description": "Chest X-ray",
+          "cost": 150
+        }
+      ],
+      "dates": {
+        "service_date": "2023-11-01",
+        "submission_date": "2023-11-15"
+      },
+      "document_types": [
+        "Medical Report",
+        "Invoice"
+      ],
+      "confidence_scores": {
+        "overall": 98,
+        "details": {
+          "name": 0,
+          "date_of_birth": 0,
+          "medical_history": 0,
+          "invoice": 97
+        }
+      }
+    },
+    "token_mapping_table": {
+      "name": "TOKEN12345",
+      "date_of_birth": "TOKEN67890",
+      "medical_history": {
+        "condition": "TOKEN24680",
+        "provider": "TOKEN13579"
+      },
+      "policy_number": "TOKEN101112"
+    },
+    "Processed_Claim_Record": {
+      "claim_status": "Approved",
+      "total_claim_amount": 350,
+      "approved_by": "Claims Agent #401"
+    },
+    "Validation_Report": {
+      "data_quality": "High",
+      "compliance_status": "Passed",
+      "issues_detected": []
+    },
+    "Payout_Instruction": {
+      "payee_name": "City Medical Center",
+      "account_number": "ACC998877",
+      "amount": 350,
+      "due_date": "2023-12-01"
+    },
+    "Audit_Log": [
+      {
+        "action": "Claim Created",
+        "timestamp": "2023-11-15T10:30:00Z",
+        "user": "Processor #22"
+      },
+      {
+        "action": "Claim Processed",
+        "timestamp": "2023-11-20T15:45:00Z",
+        "user": "Validator #34"
+      }
+    ]
+  },
+  {
+    "raw_claim_record": {
+      "patient_details": {
+        "name": "John Smith",
+        "date_of_birth": "1990-04-12",
+        "medical_history": [
+          {
+            "condition": "Type 2 Diabetes",
+            "treatment_date": "2023-05-20",
+            "provider": "HealthPlus Clinic"
+          }
+        ]
+      },
+      "policy_number": "PH987654321",
+      "invoice_lines": [
+        {
+          "service_id": "SV3003",
+          "description": "Annual physical examination",
+          "cost": 300
+        },
+        {
+          "service_id": "SV4004",
+          "description": "Diabetes management consultation",
+          "cost": 250
+        }
+      ],
+      "dates": {
+        "service_date": "2023-10-02",
+        "submission_date": "2023-10-17"
+      },
+      "document_types": [
+        "Health Record",
+        "Billing Statement"
+      ],
+      "confidence_scores": {
+        "overall": 95,
+        "details": {
+          "name": 98,
+          "date_of_birth": 100,
+          "medical_history": 92,
+          "invoice": 96
+        }
+      }
+    },
+    "masked_claim_record": {
+      "patient_details": {
+        "name": "CONFIDENTIAL",
+        "date_of_birth": "CONFIDENTIAL",
+        "medical_history": [
+          {
+            "condition": "CONFIDENTIAL",
+            "treatment_date": "2023-05-20",
+            "provider": "CONFIDENTIAL"
+          }
+        ]
+      },
+      "policy_number": "CONFIDENTIAL",
+      "invoice_lines": [
+        {
+          "service_id": "SV3003",
+          "description": "Annual physical examination",
+          "cost": 300
+        },
+        {
+          "service_id": "SV4004",
+          "description": "Diabetes management consultation",
+          "cost": 250
+        }
+      ],
+      "dates": {
+        "service_date": "2023-10-02",
+        "submission_date": "2023-10-17"
+      },
+      "document_types": [
+        "Health Record",
+        "Billing Statement"
+      ],
+      "confidence_scores": {
+        "overall": 95,
+        "details": {
+          "name": 0,
+          "date_of_birth": 0,
+          "medical_history": 0,
+          "invoice": 96
+        }
+      }
+    },
+    "token_mapping_table": {
+      "name": "TOKEN54321",
+      "date_of_birth": "TOKEN98765",
+      "medical_history": {
+        "condition": "TOKEN86420",
+        "provider": "TOKEN75310"
+      },
+      "policy_number": "TOKEN121314"
+    },
+    "Processed_Claim_Record": {
+      "claim_status": "Approved",
+      "total_claim_amount": 550,
+      "approved_by": "Claims Agent #403"
+    },
+    "Validation_Report": {
+      "data_quality": "High",
+      "compliance_status": "Passed",
+      "issues_detected": []
+    },
+    "Payout_Instruction": {
+      "payee_name": "HealthPlus Clinic",
+      "account_number": "ACC112233",
+      "amount": 550,
+      "due_date": "2023-11-05"
+    },
+    "Audit_Log": [
+      {
+        "action": "Claim Created",
+        "timestamp": "2023-10-17T09:20:00Z",
+        "user": "Processor #25"
+      },
+      {
+        "action": "Claim Processed",
+        "timestamp": "2023-10-22T16:50:00Z",
+        "user": "Validator #36"
+      }
+    ]
+  }
+]
