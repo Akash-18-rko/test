@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1",
+    "user": {
+      "email": "user@test.com",
+      "preferredLanguage": "Spanish",
+      "currency": "Bitcoin"
+    },
+    "propertyRequirements": {
+      "budget": "-100000",
+      "propertyType": "827a6b0",
+      "location": "Middle of Pacific Ocean",
+      "amenities": [
+        "helipad",
+        "rocket launch pad"
+      ]
+    },
+    "adminDetails": {
+      "adminEmail": "admin@test.com",
+      "receiveReports": "Every second"
+    },
+    "outputReport": {
+      "top5Properties": [],
+      "marketTrendAnalysis": "Not Available",
+      "googleMapsLink": "Not Available"
+    },
+    "businessMetrics": {
+      "matchedPropertiesCount": "0",
+      "marketTrendAccuracy": "0%",
+      "userSatisfactionRate": "0%",
+      "successfulTransactions": "0",
+      "systemImpactRating": "LOW"
+    }
+  }
+]
