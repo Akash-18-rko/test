@@ -1,0 +1,52 @@
+[
+  {
+    "user": {
+      "type": "Customer",
+      "preferences": {
+        "budget": 500000,
+        "property_type": "Condo",
+        "location": "Downtown",
+        "amenities": [
+          "Pool",
+          "Gym"
+        ]
+      }
+    },
+    "property_listings": [
+      {
+        "price": 480000,
+        "size": "1200 sqft",
+        "location": "Downtown",
+        "features": [
+          "2 bedrooms",
+          "2 bathrooms"
+        ]
+      },
+      {
+        "price": 510000,
+        "size": "1100 sqft",
+        "location": "Downtown",
+        "features": [
+          "2 bedrooms",
+          "Gym"
+        ],
+        "market_trends": null
+      }
+    ],
+    "report": {
+      "format": "PDF",
+      "content": [
+        {
+          "market_trends": {
+            "bar_charts": "Included"
+          },
+          "top_properties": 2
+        }
+      ],
+      "admin_review": {
+        "admin_id": 102,
+        "review_status": "Pending"
+      }
+    }
+  }
+]
