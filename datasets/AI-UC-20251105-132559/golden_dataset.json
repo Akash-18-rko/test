@@ -1,0 +1,84 @@
+[
+  {
+    "user_id": 10234,
+    "user_type": "customer",
+    "full_name": "Alice Johnson",
+    "country_of_residence": "USA",
+    "contact_number": "+19876543210",
+    "email": "alice.j@example.com",
+    "property_search_request": {
+      "budget": 250000,
+      "type": "apartment",
+      "location": "San Francisco",
+      "amenities": [
+        "pool",
+        "gym",
+        "parking"
+      ],
+      "preferred_language": "English",
+      "currency": "USD"
+    },
+    "properties_matched": [
+      {
+        "listing_id": 54321,
+        "price": 245000,
+        "size": "1200 sqft",
+        "location": "San Francisco, CA",
+        "features": [
+          "2 bedrooms",
+          "2 bathrooms",
+          "pool",
+          "gym",
+          "parking"
+        ]
+      },
+      {
+        "listing_id": 54322,
+        "price": 248000,
+        "size": "1250 sqft",
+        "location": "San Francisco, CA",
+        "features": [
+          "2 bedrooms",
+          "2 bathrooms",
+          "near public transport",
+          "gym",
+          "parking"
+        ]
+      }
+    ],
+    "market_trends": {
+      "location": "San Francisco",
+      "data_visualization": "URL_to_bar_chart.png",
+      "price_trends": "rising",
+      "popular_features": [
+        "gym",
+        "parking"
+      ]
+    },
+    "report": {
+      "report_id": 67890,
+      "creation_date": "2023-12-01",
+      "content": {
+        "customer_details": {
+          "full_name": "Alice Johnson",
+          "contact_info": "+19876543210",
+          "email": "alice.j@example.com"
+        },
+        "property_results": [
+          {
+            "listing_id": 54321,
+            "details": "2 bedrooms, 2 bathrooms, pool, gym, parking, 1200 sqft",
+            "price": 245000
+          },
+          {
+            "listing_id": 54322,
+            "details": "2 bedrooms, 2 bathrooms, near public transport, gym, parking, 1250 sqft",
+            "price": 248000
+          }
+        ],
+        "market_analysis": "Prices are rising in San Francisco with gym and parking being the most sought-after amenities."
+      },
+      "google_maps_link": "https://maps.google.com/?q=San+Francisco"
+    }
+  }
+]
