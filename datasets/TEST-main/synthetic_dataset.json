@@ -7,22 +7,20 @@
         "status": "failed",
         "errors": [
           {
-            "code": "IV001",
-            "message": "Transaction amount is missing."
-          },
-          {
-            "code": "IV002",
-            "message": "User profile details are missing."
+            "code": "IV-MRF-001",
+            "message": "'amount' field is missing in the transaction details"
           }
         ]
       },
       "partialData": {
         "transactionDetails": {
-          "timestamp": "2022-03-01T09:00:00",
+          "timestamp": "2022-12-01T17:00:00Z",
           "location": "New York",
-          "deviceInformation": null
-        },
-        "userProfile": null
+          "deviceInfo": {
+            "ipAddress": "192.168.1.1",
+            "deviceType": "Mobile"
+          }
+        }
       }
     }
   },
@@ -34,33 +32,21 @@
         "status": "error",
         "errors": [
           {
-            "code": "DQ001",
-            "message": "Invalid timestamp format."
-          },
-          {
-            "code": "DQ002",
-            "message": "Risk score is not a valid number."
+            "code": "DQ-IDF-001",
+            "message": "'riskScore' field should be numeric, not string"
           }
         ]
       },
       "partialData": {
-        "transactionDetails": {
-          "amount": 500,
-          "timestamp": "01-03-2022",
-          "location": "New York",
-          "deviceInformation": {
-            "deviceType": "Mobile",
-            "OS": "iOS"
-          }
-        },
         "userProfile": {
           "accountHistory": {
-            "previousTransactions": 10,
-            "accountAge": 2
+            "accountAgeDays": 500,
+            "transactionsCount": 1000
           },
-          "riskScore": "High",
+          "riskScore": "low",
           "behavioralPatterns": [
-            "High spending"
+            "conservative",
+            "limited"
           ]
         }
       }
@@ -68,36 +54,36 @@
   },
   {
     "assessmentResult": {
-      "errorCategory": "SystemError",
-      "errorDescription": "Processing failures",
+      "errorCategory": "ProcessingError",
+      "errorDescription": "Processing failures due to boundary conditions",
       "processingStatus": {
         "status": "partial",
         "errors": [
           {
-            "code": "SE001",
-            "message": "System processing failure while computing fraud probability."
+            "code": "PE-BCF-001",
+            "message": "Transaction amount exceeds the allowable maximum limit"
           }
         ]
       },
       "partialData": {
         "transactionDetails": {
-          "amount": 10000,
-          "timestamp": "2022-03-01T09:00:00",
+          "amount": 10000000000,
+          "timestamp": "2022-12-01T17:00:00Z",
           "location": "New York",
-          "deviceInformation": {
-            "deviceType": "Mobile",
-            "OS": "iOS"
+          "deviceInfo": {
+            "ipAddress": "192.168.1.1",
+            "deviceType": "Mobile"
           }
         },
         "userProfile": {
           "accountHistory": {
-            "previousTransactions": 100,
-            "accountAge": 5
+            "accountAgeDays": 500,
+            "transactionsCount": 1000
           },
-          "riskScore": 90,
+          "riskScore": 0.1,
           "behavioralPatterns": [
-            "High spending",
-            "Irregular transaction time"
+            "conservative",
+            "limited"
           ]
         }
       }
