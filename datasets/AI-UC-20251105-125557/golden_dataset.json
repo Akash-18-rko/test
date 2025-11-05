@@ -1,0 +1,44 @@
+[
+  {
+    "ApplicationDomain": "Real Estate",
+    "AIModelName": "RealEstateAdvisor",
+    "Functionalities": {
+      "UserRequirementsSubmission": true,
+      "AdminManagement": true,
+      "GoogleMapsIntegration": true,
+      "MarketTrendAnalysis": true,
+      "PropertyListingFetch": true,
+      "EmailAgent": true
+    },
+    "Inputs": {
+      "PropertyRequirements": {
+        "Budget": true,
+        "Type": true,
+        "Location": true,
+        "Amenities": true
+      },
+      "PreferredLanguage": true,
+      "Currency": true,
+      "BayutAPI": true
+    },
+    "Outputs": {
+      "AdminReports": true,
+      "Top5Properties": {
+        "Price": true,
+        "Size": true,
+        "Location": true,
+        "Features": true
+      },
+      "MarketTrendAnalysis": true,
+      "GoogleMapsDisplay": true
+    },
+    "BusinessContext": "AI-powered real estate consulting platform",
+    "BusinessMetrics": {
+      "PropertyMatches": true,
+      "UserSatisfactionRate": true,
+      "MarketTrendAccuracy": true,
+      "UserRequestManagementEfficiency": true
+    },
+    "AIModelImpact": "HIGH"
+  }
+]
