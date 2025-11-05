@@ -1,0 +1,166 @@
+[
+  {
+    "raw_claim_record": {
+      "patient_details": {
+        "name": "John Doe",
+        "age": 34,
+        "gender": "Male"
+      },
+      "policy_number": "POL12345678",
+      "invoice_lines": [
+        {
+          "item": "Blood test",
+          "cost": 200,
+          "code": "LAB100"
+        },
+        {
+          "item": "X-ray",
+          "cost": 150
+        }
+      ],
+      "dates": {
+        "service_date": "2023-10-01",
+        "submission_date": "2023-10-05"
+      },
+      "document_types": [
+        "invoice"
+      ],
+      "confidence_scores": {
+        "invoice_lines": 0.85
+      }
+    },
+    "masked_claim_record": {
+      "patient_details": {
+        "name": "REDACTED",
+        "age": 34,
+        "gender": "REDACTED"
+      },
+      "policy_number": "POL12345678",
+      "invoice_lines": [
+        {
+          "item": "Blood test",
+          "cost": 200,
+          "code": "LAB100"
+        }
+      ],
+      "dates": {
+        "service_date": "2023-10-01",
+        "submission_date": "2023-10-05"
+      },
+      "document_types": [
+        "invoice"
+      ]
+    },
+    "processed_claim_record": {
+      "patient_details": {
+        "name": "John Doe",
+        "age": 34
+      },
+      "policy_number": "POL12345678",
+      "invoice_lines": [
+        {
+          "item": "Blood test",
+          "cost": 200,
+          "code": "LAB100"
+        }
+      ],
+      "dates": {
+        "service_date": "2023-10-01"
+      }
+    },
+    "validation_report": {
+      "status": "Incomplete",
+      "missing_fields": [
+        "X-ray billing information",
+        "gender"
+      ]
+    },
+    "payout_instruction": null,
+    "audit_log": {
+      "events": [
+        "Ingestion complete",
+        "Privacy masking applied",
+        "Validation incomplete"
+      ]
+    }
+  },
+  {
+    "raw_claim_record": {
+      "patient_details": {
+        "name": "Jane Smith",
+        "age": 29
+      },
+      "policy_number": "POL87654321",
+      "invoice_lines": [
+        {
+          "item": "MRI scan",
+          "cost": 1200,
+          "code": "MRI200"
+        }
+      ],
+      "dates": {
+        "service_date": "2023-11-15",
+        "submission_date": null
+      },
+      "document_types": [
+        "prescription",
+        "invoice"
+      ],
+      "confidence_scores": {
+        "invoice_lines": 0.95,
+        "prescription": 0.88
+      }
+    },
+    "masked_claim_record": {
+      "patient_details": {
+        "name": "REDACTED",
+        "age": 29
+      },
+      "policy_number": "POL87654321",
+      "invoice_lines": [
+        {
+          "item": "MRI scan",
+          "cost": 1200,
+          "code": "MRI200"
+        }
+      ],
+      "dates": {
+        "service_date": "2023-11-15"
+      },
+      "document_types": [
+        "prescription",
+        "invoice"
+      ]
+    },
+    "processed_claim_record": {
+      "patient_details": {
+        "name": "Jane Smith"
+      },
+      "policy_number": "POL87654321",
+      "invoice_lines": [
+        {
+          "item": "MRI scan",
+          "cost": 1200,
+          "code": "MRI200"
+        }
+      ],
+      "dates": {
+        "service_date": "2023-11-15"
+      }
+    },
+    "validation_report": {
+      "status": "Pending",
+      "missing_fields": [
+        "Submission date"
+      ]
+    },
+    "payout_instruction": null,
+    "audit_log": {
+      "events": [
+        "Ingestion complete",
+        "Privacy masking applied",
+        "Validation delayed - awaiting submission date update"
+      ]
+    }
+  }
+]
